@@ -1,14 +1,8 @@
 {
-  "name": "ionic-app-base",
+  "name": "Ionic-3-Green-Light",
   "app_id": "",
-  "type": "ionic1",
+  "type": "ionic-angular",
   "integrations": {
-    "gulp": {}
-  },
-  "watchPatterns": [
-    "scss/**/*",
-    "www/**/*",
-    "!www/lib/**/*",
-    "!www/**/*.map"
-  ]
+    "cordova": {}
+  }
 }
