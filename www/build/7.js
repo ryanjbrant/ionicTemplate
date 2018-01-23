@@ -1,6 +1,6 @@
 webpackJsonp([7],{
 
-/***/ 582:
+/***/ 581:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout3Module", function() { return MapsLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(832);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(831);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__agm_core__ = __webpack_require__(703);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -22,7 +22,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MapsLayout3Module = (function () {
+var MapsLayout3Module = /** @class */ (function () {
     function MapsLayout3Module() {
     }
     MapsLayout3Module = __decorate([
@@ -3168,7 +3168,7 @@ AgmCoreModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 832:
+/***/ 831:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3186,7 +3186,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var MapsLayout3 = (function () {
+var MapsLayout3 = /** @class */ (function () {
     function MapsLayout3() {
     }
     MapsLayout3.prototype.onEvent = function (event) {

@@ -1,62 +1,47 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Too Effing big #
-##################
-*.psd
-node_modules
-
-# Logs and databases #
-######################
+*~
+*.sw[mnpcod]
 *.log
-*.sql
-*.sqlite
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
 
-# OS generated files #
-######################
+.idea/
+.sourcemaps/
+.vscode/
+.sass-cache/
+.versions/
+coverage/
+dist/
+node_modules/
+tmp/
+temp/
+$RECYCLE.BIN/
+
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
 Thumbs.db
+UserInterfaceState.xcuserstate
+.env
 
-# Text editor files
-.sublime-project
-.sublime-workspace
-/.vscode
+.package.tmp.json
 
-# Sass Cache remove #
-#####################
-*.sass-cache
-/.sass-cache
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
 
-# Middleman Specific #
-#####################
-# Ignore bundler config
-/.bundle
-
-# Ignore the build directory
-/build
-/_build
+# demo stuff
+demos/node_modules
+demos/polyfills
+demos/css
+demos/fonts
+demos/src/**/*.js
+demos/src/**/*.map
+demos/src/**/*.ngfactory.ts
+demos/src/**/*.d.ts
+demos/src/**/*.metadata.json
+demos/src/**/*.css.shim.ts
+*.map
+*.map

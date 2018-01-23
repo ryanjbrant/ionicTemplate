@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout1Module = (function () {
+var WizardLayout1Module = /** @class */ (function () {
     function WizardLayout1Module() {
     }
     WizardLayout1Module = __decorate([
@@ -42,7 +42,7 @@ var WizardLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 621:
+/***/ 620:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro_page__ = __webpack_require__(872);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro_page__ = __webpack_require__(871);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__ = __webpack_require__(549);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -62,7 +62,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var IntroPageModule = (function () {
+var IntroPageModule = /** @class */ (function () {
     function IntroPageModule() {
     }
     IntroPageModule = __decorate([
@@ -105,7 +105,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout1 = (function () {
+var WizardLayout1 = /** @class */ (function () {
     function WizardLayout1() {
         this.sliderOptions = { pager: true };
         this.path = false;
@@ -166,14 +166,14 @@ var WizardLayout1 = (function () {
 
 /***/ }),
 
-/***/ 872:
+/***/ 871:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_intro_service__ = __webpack_require__(873);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_intro_service__ = __webpack_require__(872);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -186,7 +186,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var IntroPage = (function () {
+var IntroPage = /** @class */ (function () {
     function IntroPage(viewCtrl, introService) {
         this.viewCtrl = viewCtrl;
         this.introService = introService;
@@ -218,17 +218,17 @@ var IntroPage = (function () {
 
 /***/ }),
 
-/***/ 873:
+/***/ 872:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -243,7 +243,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var IntroService = (function () {
+var IntroService = /** @class */ (function () {
     function IntroService(af, loadingService) {
         this.af = af;
         this.loadingService = loadingService;

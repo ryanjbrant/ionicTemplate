@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SwipeToDismissLayout2Module = (function () {
+var SwipeToDismissLayout2Module = /** @class */ (function () {
     function SwipeToDismissLayout2Module() {
     }
     SwipeToDismissLayout2Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var SwipeToDismissLayout2 = (function () {
+var SwipeToDismissLayout2 = /** @class */ (function () {
     function SwipeToDismissLayout2() {
         var _this = this;
         this.undo = function (slidingItem) {

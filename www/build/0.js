@@ -20,7 +20,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var StickyListHeaderLayout2Module = (function () {
+var StickyListHeaderLayout2Module = /** @class */ (function () {
     function StickyListHeaderLayout2Module() {
     }
     StickyListHeaderLayout2Module = __decorate([
@@ -50,55 +50,10 @@ var StickyListHeaderLayout2Module = (function () {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout3Module", function() { return StickyListHeaderLayout3Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(822);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(702);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-var StickyListHeaderLayout3Module = (function () {
-    function StickyListHeaderLayout3Module() {
-    }
-    StickyListHeaderLayout3Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */]),
-                __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], StickyListHeaderLayout3Module);
-    return StickyListHeaderLayout3Module;
-}());
-
-//# sourceMappingURL=sticky-list-header-layout-3.module.js.map
-
-/***/ }),
-
-/***/ 577:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout1Module", function() { return StickyListHeaderLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__ = __webpack_require__(827);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__ = __webpack_require__(822);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(702);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -110,7 +65,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var StickyListHeaderLayout1Module = (function () {
+var StickyListHeaderLayout1Module = /** @class */ (function () {
     function StickyListHeaderLayout1Module() {
     }
     StickyListHeaderLayout1Module = __decorate([
@@ -135,7 +90,52 @@ var StickyListHeaderLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 637:
+/***/ 573:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout3Module", function() { return StickyListHeaderLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(823);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(702);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var StickyListHeaderLayout3Module = /** @class */ (function () {
+    function StickyListHeaderLayout3Module() {
+    }
+    StickyListHeaderLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */]),
+                __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__["a" /* StickyListHeaderLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], StickyListHeaderLayout3Module);
+    return StickyListHeaderLayout3Module;
+}());
+
+//# sourceMappingURL=sticky-list-header-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 638:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143,10 +143,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageStickyListHeaderModule", function() { return ItemDetailsPageStickyListHeaderModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_sticky_list_header__ = __webpack_require__(889);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_sticky_list_header_layout_1_sticky_list_header_layout_1_module__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_sticky_list_header__ = __webpack_require__(890);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_sticky_list_header_layout_1_sticky_list_header_layout_1_module__ = __webpack_require__(572);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_sticky_list_header_layout_2_sticky_list_header_layout_2_module__ = __webpack_require__(571);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_sticky_list_header_layout_3_sticky_list_header_layout_3_module__ = __webpack_require__(572);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_sticky_list_header_layout_3_sticky_list_header_layout_3_module__ = __webpack_require__(573);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -159,7 +159,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageStickyListHeaderModule = (function () {
+var ItemDetailsPageStickyListHeaderModule = /** @class */ (function () {
     function ItemDetailsPageStickyListHeaderModule() {
     }
     ItemDetailsPageStickyListHeaderModule = __decorate([
@@ -777,7 +777,7 @@ exports.CombineLatestSubscriber = CombineLatestSubscriber;
 
 "use strict";
 
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 var of_1 = __webpack_require__(359);
 var from_1 = __webpack_require__(360);
 var concatAll_1 = __webpack_require__(686);
@@ -1346,7 +1346,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Subject_1 = __webpack_require__(63);
 var queue_1 = __webpack_require__(363);
 var Subscription_1 = __webpack_require__(54);
-var observeOn_1 = __webpack_require__(187);
+var observeOn_1 = __webpack_require__(188);
 var ObjectUnsubscribedError_1 = __webpack_require__(347);
 var SubjectSubscription_1 = __webpack_require__(356);
 /**
@@ -1955,7 +1955,7 @@ function adapterFactory(container) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentAdapter; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__);
 
 
@@ -2147,7 +2147,7 @@ var materialize_1 = __webpack_require__(745);
 exports.materialize = materialize_1.materialize;
 var max_1 = __webpack_require__(746);
 exports.max = max_1.max;
-var merge_1 = __webpack_require__(188);
+var merge_1 = __webpack_require__(189);
 exports.merge = merge_1.merge;
 var mergeAll_1 = __webpack_require__(346);
 exports.mergeAll = mergeAll_1.mergeAll;
@@ -2163,7 +2163,7 @@ var min_1 = __webpack_require__(749);
 exports.min = min_1.min;
 var multicast_1 = __webpack_require__(342);
 exports.multicast = multicast_1.multicast;
-var observeOn_1 = __webpack_require__(187);
+var observeOn_1 = __webpack_require__(188);
 exports.observeOn = observeOn_1.observeOn;
 var onErrorResumeNext_1 = __webpack_require__(750);
 exports.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNext;
@@ -2193,7 +2193,7 @@ var retry_1 = __webpack_require__(765);
 exports.retry = retry_1.retry;
 var retryWhen_1 = __webpack_require__(766);
 exports.retryWhen = retryWhen_1.retryWhen;
-var refCount_1 = __webpack_require__(190);
+var refCount_1 = __webpack_require__(191);
 exports.refCount = refCount_1.refCount;
 var sample_1 = __webpack_require__(767);
 exports.sample = sample_1.sample;
@@ -2281,7 +2281,7 @@ exports.zipAll = zipAll_1.zipAll;
 
 "use strict";
 
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var audit_1 = __webpack_require__(682);
 var timer_1 = __webpack_require__(710);
 /**
@@ -2358,8 +2358,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var isNumeric_1 = __webpack_require__(683);
 var Observable_1 = __webpack_require__(5);
-var async_1 = __webpack_require__(183);
-var isScheduler_1 = __webpack_require__(186);
+var async_1 = __webpack_require__(184);
+var isScheduler_1 = __webpack_require__(187);
 var isDate_1 = __webpack_require__(345);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -2704,9 +2704,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var Subscriber_1 = __webpack_require__(22);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 /* tslint:enable:max-line-length */
 /**
  * Buffers the source Observable values for a specific time period.
@@ -3733,7 +3733,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 /**
  * Emits a value from the source Observable only after a particular time span
  * has passed without another source emission.
@@ -4262,7 +4262,7 @@ exports.DistinctSubscriber = DistinctSubscriber;
 
 "use strict";
 
-var root_1 = __webpack_require__(38);
+var root_1 = __webpack_require__(39);
 function minimalSetImpl() {
     // THIS IS NOT a full impl of Set, this is just the minimum
     // bits of functionality we need for this library.
@@ -5501,7 +5501,7 @@ var InnerRefCountSubscription = (function (_super) {
 
 "use strict";
 
-var root_1 = __webpack_require__(38);
+var root_1 = __webpack_require__(39);
 var MapPolyfill_1 = __webpack_require__(739);
 exports.Map = root_1.root.Map || (function () { return MapPolyfill_1.MapPolyfill; })();
 //# sourceMappingURL=Map.js.map
@@ -5912,7 +5912,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var Notification_1 = __webpack_require__(192);
+var Notification_1 = __webpack_require__(193);
 /**
  * Represents all of the notifications from the source Observable as `next`
  * emissions marked with their original types within {@link Notification}
@@ -7578,7 +7578,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 /**
  * Emits the most recently emitted value from the source Observable within
  * periodic time intervals.
@@ -8230,10 +8230,10 @@ var SkipUntilSubscriber = (function (_super) {
 "use strict";
 
 var ArrayObservable_1 = __webpack_require__(109);
-var ScalarObservable_1 = __webpack_require__(189);
+var ScalarObservable_1 = __webpack_require__(190);
 var EmptyObservable_1 = __webpack_require__(110);
 var concat_1 = __webpack_require__(685);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits the items you specify as arguments before it begins to emit
@@ -8754,7 +8754,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var throttle_1 = __webpack_require__(692);
 /**
  * Emits a value from the source Observable, then ignores subsequent source
@@ -8877,7 +8877,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 function timeInterval(scheduler) {
     if (scheduler === void 0) { scheduler = async_1.async; }
     return function (source) { return source.lift(new TimeIntervalOperator(scheduler)); };
@@ -8936,7 +8936,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var isDate_1 = __webpack_require__(345);
 var Subscriber_1 = __webpack_require__(22);
 var TimeoutError_1 = __webpack_require__(784);
@@ -9116,7 +9116,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var isDate_1 = __webpack_require__(345);
 var OuterSubscriber_1 = __webpack_require__(62);
 var subscribeToResult_1 = __webpack_require__(61);
@@ -9246,7 +9246,7 @@ var TimeoutWithSubscriber = (function (_super) {
 
 "use strict";
 
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var map_1 = __webpack_require__(344);
 /**
  * @param scheduler
@@ -9561,10 +9561,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(63);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var Subscriber_1 = __webpack_require__(22);
 var isNumeric_1 = __webpack_require__(683);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 function windowTime(windowTimeSpan) {
     var scheduler = async_1.async;
     var windowCreationInterval = null;
@@ -10075,7 +10075,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var StickyListHeaderLayout2 = (function () {
+var StickyListHeaderLayout2 = /** @class */ (function () {
     function StickyListHeaderLayout2() {
         this.slider = {};
     }
@@ -10119,64 +10119,6 @@ var StickyListHeaderLayout2 = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StickyListHeaderLayout3; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var StickyListHeaderLayout3 = (function () {
-    function StickyListHeaderLayout3() {
-        this.slider = {};
-    }
-    StickyListHeaderLayout3.prototype.ngOnChanges = function (changes) {
-        this.data = changes['data'].currentValue;
-    };
-    StickyListHeaderLayout3.prototype.onEvent = function (event, item, e) {
-        if (e) {
-            e.stopPropagation();
-        }
-        if (this.events[event]) {
-            this.events[event](item);
-        }
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], StickyListHeaderLayout3.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], StickyListHeaderLayout3.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], StickyListHeaderLayout3.prototype, "content", void 0);
-    StickyListHeaderLayout3 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'sticky-list-header-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Post -->\n\n<ion-content has-header no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items">\n\n      <!--Text Header Top-->\n\n      <ion-list-header ion-affix [content]="content">\n\n        <ion-item no-margin no-padding no-lines>\n\n          <h2 item-start no-margin header-title text-capitalize>{{item.groupName}}</h2>\n\n          <div item-content item-subtitle>\n\n            {{item.dateTime}}\n\n          </div>\n\n        </ion-item>\n\n      </ion-list-header>\n\n      <!--Text Content List -->\n\n      <ion-card no-margin *ngFor="let element of item.items" (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n        <ion-item>\n\n          <ion-avatar item-start border>\n\n            <img [src]="element.image" alt="{{element.title}}" />\n\n          </ion-avatar>\n\n          <h2 item-subtitle text-capitalize>{{element.name}}</h2>\n\n          <button item-end ion-button color="primary" button-action-shit (click)="onEvent(\'onShare\', element, $event)">\n\n            <ion-icon name="{{element.shareIcon}}"></ion-icon>\n\n          </button>\n\n        </ion-item>\n\n        <ion-card-content>\n\n          <!--Content List Title -->\n\n          <h2 card-title margin-bottom>{{element.title}}</h2>\n\n          <!--Content List Subtitle -->\n\n          <p card-subtitle text-wrap>{{element.subtitle}}</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], StickyListHeaderLayout3);
-    return StickyListHeaderLayout3;
-}());
-
-//# sourceMappingURL=sticky-list-header-layout-3.js.map
-
-/***/ }),
-
-/***/ 827:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StickyListHeaderLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
@@ -10191,7 +10133,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var StickyListHeaderLayout1 = (function () {
+var StickyListHeaderLayout1 = /** @class */ (function () {
     function StickyListHeaderLayout1() {
         this.slider = {};
     }
@@ -10231,7 +10173,65 @@ var StickyListHeaderLayout1 = (function () {
 
 /***/ }),
 
-/***/ 889:
+/***/ 823:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StickyListHeaderLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var StickyListHeaderLayout3 = /** @class */ (function () {
+    function StickyListHeaderLayout3() {
+        this.slider = {};
+    }
+    StickyListHeaderLayout3.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    StickyListHeaderLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], StickyListHeaderLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], StickyListHeaderLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], StickyListHeaderLayout3.prototype, "content", void 0);
+    StickyListHeaderLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'sticky-list-header-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Post -->\n\n<ion-content has-header no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items">\n\n      <!--Text Header Top-->\n\n      <ion-list-header ion-affix [content]="content">\n\n        <ion-item no-margin no-padding no-lines>\n\n          <h2 item-start no-margin header-title text-capitalize>{{item.groupName}}</h2>\n\n          <div item-content item-subtitle>\n\n            {{item.dateTime}}\n\n          </div>\n\n        </ion-item>\n\n      </ion-list-header>\n\n      <!--Text Content List -->\n\n      <ion-card no-margin *ngFor="let element of item.items" (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n        <ion-item>\n\n          <ion-avatar item-start border>\n\n            <img [src]="element.image" alt="{{element.title}}" />\n\n          </ion-avatar>\n\n          <h2 item-subtitle text-capitalize>{{element.name}}</h2>\n\n          <button item-end ion-button color="primary" button-action-shit (click)="onEvent(\'onShare\', element, $event)">\n\n            <ion-icon name="{{element.shareIcon}}"></ion-icon>\n\n          </button>\n\n        </ion-item>\n\n        <ion-card-content>\n\n          <!--Content List Title -->\n\n          <h2 card-title margin-bottom>{{element.title}}</h2>\n\n          <!--Content List Subtitle -->\n\n          <p card-subtitle text-wrap>{{element.subtitle}}</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], StickyListHeaderLayout3);
+    return StickyListHeaderLayout3;
+}());
+
+//# sourceMappingURL=sticky-list-header-layout-3.js.map
+
+/***/ }),
+
+/***/ 890:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10249,7 +10249,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageStickyListHeader = (function () {
+var ItemDetailsPageStickyListHeader = /** @class */ (function () {
     function ItemDetailsPageStickyListHeader(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

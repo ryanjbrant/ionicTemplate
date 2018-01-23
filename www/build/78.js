@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SearchBarLayout1Module = (function () {
+var SearchBarLayout1Module = /** @class */ (function () {
     function SearchBarLayout1Module() {
     }
     SearchBarLayout1Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var SearchBarLayout1 = (function () {
+var SearchBarLayout1 = /** @class */ (function () {
     function SearchBarLayout1() {
         this.searchTerm = "";
     }

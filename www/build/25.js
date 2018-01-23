@@ -1,6 +1,6 @@
 webpackJsonp([25,111,112,113],{
 
-/***/ 552:
+/***/ 550:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout1Module", function() { return CheckBoxLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__ = __webpack_require__(802);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__ = __webpack_require__(800);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CheckBoxLayout1Module = (function () {
+var CheckBoxLayout1Module = /** @class */ (function () {
     function CheckBoxLayout1Module() {
     }
     CheckBoxLayout1Module = __decorate([
@@ -42,7 +42,7 @@ var CheckBoxLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 554:
+/***/ 552:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout2Module", function() { return CheckBoxLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__ = __webpack_require__(804);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__ = __webpack_require__(802);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CheckBoxLayout2Module = (function () {
+var CheckBoxLayout2Module = /** @class */ (function () {
     function CheckBoxLayout2Module() {
     }
     CheckBoxLayout2Module = __decorate([
@@ -84,7 +84,7 @@ var CheckBoxLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 555:
+/***/ 553:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout3Module", function() { return CheckBoxLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_3__ = __webpack_require__(805);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_3__ = __webpack_require__(803);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -102,7 +102,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CheckBoxLayout3Module = (function () {
+var CheckBoxLayout3Module = /** @class */ (function () {
     function CheckBoxLayout3Module() {
     }
     CheckBoxLayout3Module = __decorate([
@@ -126,7 +126,7 @@ var CheckBoxLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 623:
+/***/ 621:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,10 +134,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageCheckBoxModule", function() { return ItemDetailsPageCheckBoxModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_check_box__ = __webpack_require__(875);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_check_box_layout_1_check_box_layout_1_module__ = __webpack_require__(552);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_check_box_layout_2_check_box_layout_2_module__ = __webpack_require__(554);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_check_box_layout_3_check_box_layout_3_module__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_check_box__ = __webpack_require__(873);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_check_box_layout_1_check_box_layout_1_module__ = __webpack_require__(550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_check_box_layout_2_check_box_layout_2_module__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_check_box_layout_3_check_box_layout_3_module__ = __webpack_require__(553);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -150,7 +150,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageCheckBoxModule = (function () {
+var ItemDetailsPageCheckBoxModule = /** @class */ (function () {
     function ItemDetailsPageCheckBoxModule() {
     }
     ItemDetailsPageCheckBoxModule = __decorate([
@@ -172,7 +172,7 @@ var ItemDetailsPageCheckBoxModule = (function () {
 
 /***/ }),
 
-/***/ 802:
+/***/ 800:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,7 +188,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var CheckBoxLayout1 = (function () {
+var CheckBoxLayout1 = /** @class */ (function () {
     function CheckBoxLayout1() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -221,7 +221,7 @@ var CheckBoxLayout1 = (function () {
 
 /***/ }),
 
-/***/ 804:
+/***/ 802:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -237,7 +237,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var CheckBoxLayout2 = (function () {
+var CheckBoxLayout2 = /** @class */ (function () {
     function CheckBoxLayout2() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -267,7 +267,7 @@ var CheckBoxLayout2 = (function () {
 
 /***/ }),
 
-/***/ 805:
+/***/ 803:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -283,7 +283,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var CheckBoxLayout3 = (function () {
+var CheckBoxLayout3 = /** @class */ (function () {
     function CheckBoxLayout3() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -313,7 +313,7 @@ var CheckBoxLayout3 = (function () {
 
 /***/ }),
 
-/***/ 875:
+/***/ 873:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -331,7 +331,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageCheckBox = (function () {
+var ItemDetailsPageCheckBox = /** @class */ (function () {
     function ItemDetailsPageCheckBox(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

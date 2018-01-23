@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout1Module = (function () {
+var WizardLayout1Module = /** @class */ (function () {
     function WizardLayout1Module() {
     }
     WizardLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout2Module = (function () {
+var WizardLayout2Module = /** @class */ (function () {
     function WizardLayout2Module() {
     }
     WizardLayout2Module = __decorate([
@@ -102,7 +102,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout3Module = (function () {
+var WizardLayout3Module = /** @class */ (function () {
     function WizardLayout3Module() {
     }
     WizardLayout3Module = __decorate([
@@ -126,7 +126,7 @@ var WizardLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 645:
+/***/ 644:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageWizardModule", function() { return ItemDetailsPageWizardModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_wizard__ = __webpack_require__(897);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_wizard__ = __webpack_require__(896);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__ = __webpack_require__(549);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_wizard_layout_2_wizard_layout_2_module__ = __webpack_require__(616);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_wizard_layout_3_wizard_layout_3_module__ = __webpack_require__(617);
@@ -150,7 +150,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageWizardModule = (function () {
+var ItemDetailsPageWizardModule = /** @class */ (function () {
     function ItemDetailsPageWizardModule() {
     }
     ItemDetailsPageWizardModule = __decorate([
@@ -190,7 +190,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout1 = (function () {
+var WizardLayout1 = /** @class */ (function () {
     function WizardLayout1() {
         this.sliderOptions = { pager: true };
         this.path = false;
@@ -269,7 +269,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout2 = (function () {
+var WizardLayout2 = /** @class */ (function () {
     function WizardLayout2() {
         this.next = true;
         this.finish = true;
@@ -340,7 +340,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout3 = (function () {
+var WizardLayout3 = /** @class */ (function () {
     function WizardLayout3() {
         this.next = true;
         this.finish = true;
@@ -392,7 +392,7 @@ var WizardLayout3 = (function () {
 
 /***/ }),
 
-/***/ 897:
+/***/ 896:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -410,7 +410,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageWizard = (function () {
+var ItemDetailsPageWizard = /** @class */ (function () {
     function ItemDetailsPageWizard(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;

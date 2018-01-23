@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var TabPage3Module = (function () {
+var TabPage3Module = /** @class */ (function () {
     function TabPage3Module() {
     }
     TabPage3Module = __decorate([
@@ -46,12 +46,12 @@ var TabPage3Module = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toast_service__ = __webpack_require__(341);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -68,7 +68,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var TabsService = (function () {
+var TabsService = /** @class */ (function () {
     function TabsService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -788,7 +788,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var TabPage3 = (function () {
+var TabPage3 = /** @class */ (function () {
     function TabPage3(tabsService, toastCtrl) {
         var _this = this;
         this.tabsService = tabsService;

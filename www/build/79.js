@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RegisterLayout2Module = (function () {
+var RegisterLayout2Module = /** @class */ (function () {
     function RegisterLayout2Module() {
     }
     RegisterLayout2Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RegisterLayout2 = (function () {
+var RegisterLayout2 = /** @class */ (function () {
     function RegisterLayout2() {
         var _this = this;
         this.onEvent = function (event) {

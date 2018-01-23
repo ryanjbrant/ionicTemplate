@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RangeLayout3Module = (function () {
+var RangeLayout3Module = /** @class */ (function () {
     function RangeLayout3Module() {
     }
     RangeLayout3Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RangeLayout3 = (function () {
+var RangeLayout3 = /** @class */ (function () {
     function RangeLayout3() {
         var _this = this;
         this.onEvent = function (event, item) {

@@ -1,6 +1,6 @@
 webpackJsonp([50],{
 
-/***/ 648:
+/***/ 651:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabPage11Module", function() { return TabPage11Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_page_11__ = __webpack_require__(900);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_page_11__ = __webpack_require__(903);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var TabPage11Module = (function () {
+var TabPage11Module = /** @class */ (function () {
     function TabPage11Module() {
     }
     TabPage11Module = __decorate([
@@ -46,12 +46,12 @@ var TabPage11Module = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toast_service__ = __webpack_require__(341);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -68,7 +68,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var TabsService = (function () {
+var TabsService = /** @class */ (function () {
     function TabsService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -768,7 +768,7 @@ var TabsService = (function () {
 
 /***/ }),
 
-/***/ 900:
+/***/ 903:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -788,7 +788,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var TabPage11 = (function () {
+var TabPage11 = /** @class */ (function () {
     function TabPage11(tabsService, toastCtrl) {
         var _this = this;
         this.tabsService = tabsService;

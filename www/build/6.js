@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 580:
+/***/ 579:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout1Module", function() { return MapsLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_1__ = __webpack_require__(830);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_1__ = __webpack_require__(829);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__agm_core__ = __webpack_require__(703);
@@ -24,7 +24,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MapsLayout1Module = (function () {
+var MapsLayout1Module = /** @class */ (function () {
     function MapsLayout1Module() {
     }
     MapsLayout1Module = __decorate([
@@ -213,7 +213,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var ElasticHeaderModule = (function () {
+var ElasticHeaderModule = /** @class */ (function () {
     function ElasticHeaderModule() {
     }
     ElasticHeaderModule = __decorate([
@@ -250,7 +250,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ElasticHeader = (function () {
+var ElasticHeader = /** @class */ (function () {
     function ElasticHeader(element, renderer) {
         this.element = element;
         this.renderer = renderer;
@@ -3273,7 +3273,7 @@ AgmCoreModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 830:
+/***/ 829:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3291,7 +3291,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var MapsLayout1 = (function () {
+var MapsLayout1 = /** @class */ (function () {
     function MapsLayout1() {
     }
     MapsLayout1.prototype.onEvent = function (event, index, e) {

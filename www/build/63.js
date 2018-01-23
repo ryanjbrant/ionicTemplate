@@ -1,6 +1,6 @@
 webpackJsonp([63],{
 
-/***/ 611:
+/***/ 610:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout2Module", function() { return TabsLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(861);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(860);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var TabsLayout2Module = (function () {
+var TabsLayout2Module = /** @class */ (function () {
     function TabsLayout2Module() {
     }
     TabsLayout2Module = __decorate([
@@ -42,7 +42,7 @@ var TabsLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 861:
+/***/ 860:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var TabsLayout2 = (function () {
+var TabsLayout2 = /** @class */ (function () {
     function TabsLayout2() {
     }
     __decorate([

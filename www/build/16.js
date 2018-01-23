@@ -5,52 +5,10 @@ webpackJsonp([16,62,63,64],{
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout1Module", function() { return TabsLayout1Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__ = __webpack_require__(860);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var TabsLayout1Module = (function () {
-    function TabsLayout1Module() {
-    }
-    TabsLayout1Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */]),
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], TabsLayout1Module);
-    return TabsLayout1Module;
-}());
-
-//# sourceMappingURL=tabs-layout-1.module.js.map
-
-/***/ }),
-
-/***/ 611:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout2Module", function() { return TabsLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(861);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(860);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var TabsLayout2Module = (function () {
+var TabsLayout2Module = /** @class */ (function () {
     function TabsLayout2Module() {
     }
     TabsLayout2Module = __decorate([
@@ -84,15 +42,15 @@ var TabsLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 614:
+/***/ 611:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout3Module", function() { return TabsLayout3Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout1Module", function() { return TabsLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_3__ = __webpack_require__(864);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__ = __webpack_require__(861);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -102,7 +60,49 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var TabsLayout3Module = (function () {
+var TabsLayout1Module = /** @class */ (function () {
+    function TabsLayout1Module() {
+    }
+    TabsLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__tabs_layout_1__["a" /* TabsLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], TabsLayout1Module);
+    return TabsLayout1Module;
+}());
+
+//# sourceMappingURL=tabs-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 612:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout3Module", function() { return TabsLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_3__ = __webpack_require__(862);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var TabsLayout3Module = /** @class */ (function () {
     function TabsLayout3Module() {
     }
     TabsLayout3Module = __decorate([
@@ -126,7 +126,7 @@ var TabsLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 642:
+/***/ 654:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,10 +134,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageTabsModule", function() { return ItemDetailsPageTabsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(894);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_tabs_layout_1_tabs_layout_1_module__ = __webpack_require__(610);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_tabs_layout_2_tabs_layout_2_module__ = __webpack_require__(611);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_layout_3_tabs_layout_3_module__ = __webpack_require__(614);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(906);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_tabs_layout_1_tabs_layout_1_module__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_tabs_layout_2_tabs_layout_2_module__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_layout_3_tabs_layout_3_module__ = __webpack_require__(612);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -150,7 +150,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageTabsModule = (function () {
+var ItemDetailsPageTabsModule = /** @class */ (function () {
     function ItemDetailsPageTabsModule() {
     }
     ItemDetailsPageTabsModule = __decorate([
@@ -178,50 +178,6 @@ var ItemDetailsPageTabsModule = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsLayout1; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var TabsLayout1 = (function () {
-    function TabsLayout1() {
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
-        __metadata("design:type", Object)
-    ], TabsLayout1.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
-        __metadata("design:type", Object)
-    ], TabsLayout1.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('tabs'),
-        __metadata("design:type", Object)
-    ], TabsLayout1.prototype, "tabRef", void 0);
-    TabsLayout1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-1',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/tabs/layout-1/tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n<ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/tabs/layout-1/tabs.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], TabsLayout1);
-    return TabsLayout1;
-}());
-
-//# sourceMappingURL=tabs-layout-1.js.map
-
-/***/ }),
-
-/***/ 861:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsLayout2; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -234,7 +190,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var TabsLayout2 = (function () {
+var TabsLayout2 = /** @class */ (function () {
     function TabsLayout2() {
     }
     __decorate([
@@ -262,7 +218,51 @@ var TabsLayout2 = (function () {
 
 /***/ }),
 
-/***/ 864:
+/***/ 861:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TabsLayout1 = /** @class */ (function () {
+    function TabsLayout1() {
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], TabsLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], TabsLayout1.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('tabs'),
+        __metadata("design:type", Object)
+    ], TabsLayout1.prototype, "tabRef", void 0);
+    TabsLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'tabs-layout-1',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/tabs/layout-1/tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n<ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/tabs/layout-1/tabs.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], TabsLayout1);
+    return TabsLayout1;
+}());
+
+//# sourceMappingURL=tabs-layout-1.js.map
+
+/***/ }),
+
+/***/ 862:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -278,7 +278,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var TabsLayout3 = (function () {
+var TabsLayout3 = /** @class */ (function () {
     function TabsLayout3() {
     }
     __decorate([
@@ -306,7 +306,7 @@ var TabsLayout3 = (function () {
 
 /***/ }),
 
-/***/ 894:
+/***/ 906:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -324,7 +324,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageTabs = (function () {
+var ItemDetailsPageTabs = /** @class */ (function () {
     function ItemDetailsPageTabs(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

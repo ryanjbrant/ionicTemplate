@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 572:
+/***/ 573:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout3Module", function() { return StickyListHeaderLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(822);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(823);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(702);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -20,7 +20,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var StickyListHeaderLayout3Module = (function () {
+var StickyListHeaderLayout3Module = /** @class */ (function () {
     function StickyListHeaderLayout3Module() {
     }
     StickyListHeaderLayout3Module = __decorate([
@@ -641,7 +641,7 @@ exports.CombineLatestSubscriber = CombineLatestSubscriber;
 
 "use strict";
 
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 var of_1 = __webpack_require__(359);
 var from_1 = __webpack_require__(360);
 var concatAll_1 = __webpack_require__(686);
@@ -1210,7 +1210,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Subject_1 = __webpack_require__(63);
 var queue_1 = __webpack_require__(363);
 var Subscription_1 = __webpack_require__(54);
-var observeOn_1 = __webpack_require__(187);
+var observeOn_1 = __webpack_require__(188);
 var ObjectUnsubscribedError_1 = __webpack_require__(347);
 var SubjectSubscription_1 = __webpack_require__(356);
 /**
@@ -1819,7 +1819,7 @@ function adapterFactory(container) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentAdapter; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__);
 
 
@@ -2011,7 +2011,7 @@ var materialize_1 = __webpack_require__(745);
 exports.materialize = materialize_1.materialize;
 var max_1 = __webpack_require__(746);
 exports.max = max_1.max;
-var merge_1 = __webpack_require__(188);
+var merge_1 = __webpack_require__(189);
 exports.merge = merge_1.merge;
 var mergeAll_1 = __webpack_require__(346);
 exports.mergeAll = mergeAll_1.mergeAll;
@@ -2027,7 +2027,7 @@ var min_1 = __webpack_require__(749);
 exports.min = min_1.min;
 var multicast_1 = __webpack_require__(342);
 exports.multicast = multicast_1.multicast;
-var observeOn_1 = __webpack_require__(187);
+var observeOn_1 = __webpack_require__(188);
 exports.observeOn = observeOn_1.observeOn;
 var onErrorResumeNext_1 = __webpack_require__(750);
 exports.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNext;
@@ -2057,7 +2057,7 @@ var retry_1 = __webpack_require__(765);
 exports.retry = retry_1.retry;
 var retryWhen_1 = __webpack_require__(766);
 exports.retryWhen = retryWhen_1.retryWhen;
-var refCount_1 = __webpack_require__(190);
+var refCount_1 = __webpack_require__(191);
 exports.refCount = refCount_1.refCount;
 var sample_1 = __webpack_require__(767);
 exports.sample = sample_1.sample;
@@ -2145,7 +2145,7 @@ exports.zipAll = zipAll_1.zipAll;
 
 "use strict";
 
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var audit_1 = __webpack_require__(682);
 var timer_1 = __webpack_require__(710);
 /**
@@ -2222,8 +2222,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var isNumeric_1 = __webpack_require__(683);
 var Observable_1 = __webpack_require__(5);
-var async_1 = __webpack_require__(183);
-var isScheduler_1 = __webpack_require__(186);
+var async_1 = __webpack_require__(184);
+var isScheduler_1 = __webpack_require__(187);
 var isDate_1 = __webpack_require__(345);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -2568,9 +2568,9 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var Subscriber_1 = __webpack_require__(22);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 /* tslint:enable:max-line-length */
 /**
  * Buffers the source Observable values for a specific time period.
@@ -3597,7 +3597,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 /**
  * Emits a value from the source Observable only after a particular time span
  * has passed without another source emission.
@@ -4126,7 +4126,7 @@ exports.DistinctSubscriber = DistinctSubscriber;
 
 "use strict";
 
-var root_1 = __webpack_require__(38);
+var root_1 = __webpack_require__(39);
 function minimalSetImpl() {
     // THIS IS NOT a full impl of Set, this is just the minimum
     // bits of functionality we need for this library.
@@ -5365,7 +5365,7 @@ var InnerRefCountSubscription = (function (_super) {
 
 "use strict";
 
-var root_1 = __webpack_require__(38);
+var root_1 = __webpack_require__(39);
 var MapPolyfill_1 = __webpack_require__(739);
 exports.Map = root_1.root.Map || (function () { return MapPolyfill_1.MapPolyfill; })();
 //# sourceMappingURL=Map.js.map
@@ -5776,7 +5776,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var Notification_1 = __webpack_require__(192);
+var Notification_1 = __webpack_require__(193);
 /**
  * Represents all of the notifications from the source Observable as `next`
  * emissions marked with their original types within {@link Notification}
@@ -7442,7 +7442,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 /**
  * Emits the most recently emitted value from the source Observable within
  * periodic time intervals.
@@ -8094,10 +8094,10 @@ var SkipUntilSubscriber = (function (_super) {
 "use strict";
 
 var ArrayObservable_1 = __webpack_require__(109);
-var ScalarObservable_1 = __webpack_require__(189);
+var ScalarObservable_1 = __webpack_require__(190);
 var EmptyObservable_1 = __webpack_require__(110);
 var concat_1 = __webpack_require__(685);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits the items you specify as arguments before it begins to emit
@@ -8618,7 +8618,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var throttle_1 = __webpack_require__(692);
 /**
  * Emits a value from the source Observable, then ignores subsequent source
@@ -8741,7 +8741,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(22);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 function timeInterval(scheduler) {
     if (scheduler === void 0) { scheduler = async_1.async; }
     return function (source) { return source.lift(new TimeIntervalOperator(scheduler)); };
@@ -8800,7 +8800,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var isDate_1 = __webpack_require__(345);
 var Subscriber_1 = __webpack_require__(22);
 var TimeoutError_1 = __webpack_require__(784);
@@ -8980,7 +8980,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var isDate_1 = __webpack_require__(345);
 var OuterSubscriber_1 = __webpack_require__(62);
 var subscribeToResult_1 = __webpack_require__(61);
@@ -9110,7 +9110,7 @@ var TimeoutWithSubscriber = (function (_super) {
 
 "use strict";
 
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var map_1 = __webpack_require__(344);
 /**
  * @param scheduler
@@ -9425,10 +9425,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(63);
-var async_1 = __webpack_require__(183);
+var async_1 = __webpack_require__(184);
 var Subscriber_1 = __webpack_require__(22);
 var isNumeric_1 = __webpack_require__(683);
-var isScheduler_1 = __webpack_require__(186);
+var isScheduler_1 = __webpack_require__(187);
 function windowTime(windowTimeSpan) {
     var scheduler = async_1.async;
     var windowCreationInterval = null;
@@ -9921,7 +9921,7 @@ exports.zipAll = zipAll;
 
 /***/ }),
 
-/***/ 822:
+/***/ 823:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9939,7 +9939,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var StickyListHeaderLayout3 = (function () {
+var StickyListHeaderLayout3 = /** @class */ (function () {
     function StickyListHeaderLayout3() {
         this.slider = {};
     }

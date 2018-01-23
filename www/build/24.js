@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SubImageGalleryModule = (function () {
+var SubImageGalleryModule = /** @class */ (function () {
     function SubImageGalleryModule() {
     }
     SubImageGalleryModule = __decorate([
@@ -42,7 +42,7 @@ var SubImageGalleryModule = (function () {
 
 /***/ }),
 
-/***/ 556:
+/***/ 555:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageGalleryLayout1Module", function() { return ImageGalleryLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__ = __webpack_require__(806);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__ = __webpack_require__(805);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ImageGalleryLayout1Module = (function () {
+var ImageGalleryLayout1Module = /** @class */ (function () {
     function ImageGalleryLayout1Module() {
     }
     ImageGalleryLayout1Module = __decorate([
@@ -84,7 +84,7 @@ var ImageGalleryLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 557:
+/***/ 556:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageGalleryLayout2Module", function() { return ImageGalleryLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_2__ = __webpack_require__(807);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_2__ = __webpack_require__(806);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -102,7 +102,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ImageGalleryLayout2Module = (function () {
+var ImageGalleryLayout2Module = /** @class */ (function () {
     function ImageGalleryLayout2Module() {
     }
     ImageGalleryLayout2Module = __decorate([
@@ -126,7 +126,7 @@ var ImageGalleryLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 628:
+/***/ 626:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,9 +134,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageImageGalleryModule", function() { return ItemDetailsPageImageGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_image_gallery__ = __webpack_require__(880);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_image_gallery_layout_1_image_gallery_layout_1_module__ = __webpack_require__(556);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_image_gallery_layout_2_image_gallery_layout_2_module__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_image_gallery__ = __webpack_require__(878);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_image_gallery_layout_1_image_gallery_layout_1_module__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_image_gallery_layout_2_image_gallery_layout_2_module__ = __webpack_require__(556);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_sub_image_gallery_sub_image_gallery_module__ = __webpack_require__(548);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -150,7 +150,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageImageGalleryModule = (function () {
+var ItemDetailsPageImageGalleryModule = /** @class */ (function () {
     function ItemDetailsPageImageGalleryModule() {
     }
     ItemDetailsPageImageGalleryModule = __decorate([
@@ -190,7 +190,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var SubImageGallery = (function () {
+var SubImageGallery = /** @class */ (function () {
     function SubImageGallery(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;
@@ -230,7 +230,7 @@ var SubImageGallery = (function () {
 
 /***/ }),
 
-/***/ 806:
+/***/ 805:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -248,7 +248,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ImageGalleryLayout1 = (function () {
+var ImageGalleryLayout1 = /** @class */ (function () {
     function ImageGalleryLayout1(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;
@@ -292,7 +292,7 @@ var ImageGalleryLayout1 = (function () {
 
 /***/ }),
 
-/***/ 807:
+/***/ 806:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -310,7 +310,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ImageGalleryLayout2 = (function () {
+var ImageGalleryLayout2 = /** @class */ (function () {
     function ImageGalleryLayout2(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;
@@ -354,7 +354,7 @@ var ImageGalleryLayout2 = (function () {
 
 /***/ }),
 
-/***/ 880:
+/***/ 878:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -372,7 +372,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageImageGallery = (function () {
+var ItemDetailsPageImageGallery = /** @class */ (function () {
     function ItemDetailsPageImageGallery(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;

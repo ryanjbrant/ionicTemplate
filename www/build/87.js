@@ -1,6 +1,6 @@
 webpackJsonp([87],{
 
-/***/ 587:
+/***/ 588:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RadioButtonLayout1Module", function() { return RadioButtonLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__ = __webpack_require__(837);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__ = __webpack_require__(838);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RadioButtonLayout1Module = (function () {
+var RadioButtonLayout1Module = /** @class */ (function () {
     function RadioButtonLayout1Module() {
     }
     RadioButtonLayout1Module = __decorate([
@@ -42,7 +42,7 @@ var RadioButtonLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 837:
+/***/ 838:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RadioButtonLayout1 = (function () {
+var RadioButtonLayout1 = /** @class */ (function () {
     function RadioButtonLayout1() {
         var _this = this;
         this.onEvent = function (event, item) {

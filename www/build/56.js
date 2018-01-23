@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout3Module = (function () {
+var WizardLayout3Module = /** @class */ (function () {
     function WizardLayout3Module() {
     }
     WizardLayout3Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout3 = (function () {
+var WizardLayout3 = /** @class */ (function () {
     function WizardLayout3() {
         this.next = true;
         this.finish = true;

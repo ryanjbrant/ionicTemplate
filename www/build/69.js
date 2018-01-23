@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SpinnerModule = (function () {
+var SpinnerModule = /** @class */ (function () {
     function SpinnerModule() {
     }
     SpinnerModule = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var Spinner = (function () {
+var Spinner = /** @class */ (function () {
     function Spinner() {
         var _this = this;
         this.getData = function () {

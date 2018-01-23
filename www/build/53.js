@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var HomePageModule = (function () {
+var HomePageModule = /** @class */ (function () {
     function HomePageModule() {
     }
     HomePageModule = __decorate([
@@ -59,7 +59,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var HomePage = (function () {
+var HomePage = /** @class */ (function () {
     function HomePage(navCtrl, service) {
         var _this = this;
         this.navCtrl = navCtrl;
@@ -88,7 +88,7 @@ var HomePage = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
@@ -106,7 +106,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var HomeService = (function () {
+var HomeService = /** @class */ (function () {
     function HomeService(af) {
         this.af = af;
         this.getData = function () {

@@ -1,6 +1,6 @@
 webpackJsonp([32,110],{
 
-/***/ 576:
+/***/ 554:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FullScreenGalleryModule", function() { return FullScreenGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__ = __webpack_require__(826);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__ = __webpack_require__(804);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var FullScreenGalleryModule = (function () {
+var FullScreenGalleryModule = /** @class */ (function () {
     function FullScreenGalleryModule() {
     }
     FullScreenGalleryModule = __decorate([
@@ -42,7 +42,7 @@ var FullScreenGalleryModule = (function () {
 
 /***/ }),
 
-/***/ 625:
+/***/ 635:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,8 +50,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageFullScreenGalleryModule", function() { return ItemDetailsPageFullScreenGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_full_screen_gallery__ = __webpack_require__(877);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_full_screen_gallery_full_screen_gallery_module__ = __webpack_require__(576);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_full_screen_gallery__ = __webpack_require__(887);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_full_screen_gallery_full_screen_gallery_module__ = __webpack_require__(554);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,7 +62,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageFullScreenGalleryModule = (function () {
+var ItemDetailsPageFullScreenGalleryModule = /** @class */ (function () {
     function ItemDetailsPageFullScreenGalleryModule() {
     }
     ItemDetailsPageFullScreenGalleryModule = __decorate([
@@ -87,7 +87,7 @@ var ItemDetailsPageFullScreenGalleryModule = (function () {
 
 /***/ }),
 
-/***/ 826:
+/***/ 804:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105,7 +105,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var FullScreenGallery = (function () {
+var FullScreenGallery = /** @class */ (function () {
     function FullScreenGallery(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;
@@ -159,7 +159,7 @@ var FullScreenGallery = (function () {
 
 /***/ }),
 
-/***/ 877:
+/***/ 887:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -177,7 +177,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageFullScreenGallery = (function () {
+var ItemDetailsPageFullScreenGallery = /** @class */ (function () {
     function ItemDetailsPageFullScreenGallery(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

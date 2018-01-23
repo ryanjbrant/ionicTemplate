@@ -1,6 +1,6 @@
 webpackJsonp([5],{
 
-/***/ 662:
+/***/ 660:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemsPageModule", function() { return ItemsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(912);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemsPageModule = (function () {
+var ItemsPageModule = /** @class */ (function () {
     function ItemsPageModule() {
     }
     ItemsPageModule = __decorate([
@@ -44,12 +44,12 @@ var ItemsPageModule = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toast_service__ = __webpack_require__(341);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -66,7 +66,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var TabsService = (function () {
+var TabsService = /** @class */ (function () {
     function TabsService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -766,43 +766,43 @@ var TabsService = (function () {
 
 /***/ }),
 
-/***/ 914:
+/***/ 912:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_HttpService__ = __webpack_require__(915);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_validation__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__ = __webpack_require__(917);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_HttpService__ = __webpack_require__(913);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_validation__ = __webpack_require__(914);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__ = __webpack_require__(915);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_google_analytics__ = __webpack_require__(368);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__ = __webpack_require__(918);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__ = __webpack_require__(919);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__ = __webpack_require__(920);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__ = __webpack_require__(921);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__ = __webpack_require__(922);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__ = __webpack_require__(923);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__ = __webpack_require__(916);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__ = __webpack_require__(917);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__ = __webpack_require__(918);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__ = __webpack_require__(919);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__ = __webpack_require__(920);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__ = __webpack_require__(921);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_tabs_service__ = __webpack_require__(664);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_login_service__ = __webpack_require__(924);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_register_service__ = __webpack_require__(925);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__ = __webpack_require__(926);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__ = __webpack_require__(927);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__ = __webpack_require__(928);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__ = __webpack_require__(929);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__ = __webpack_require__(930);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__ = __webpack_require__(931);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__ = __webpack_require__(932);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__ = __webpack_require__(933);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__ = __webpack_require__(934);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_maps_service__ = __webpack_require__(935);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__ = __webpack_require__(936);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__ = __webpack_require__(937);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_range_service__ = __webpack_require__(938);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__ = __webpack_require__(939);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__services_select_service__ = __webpack_require__(940);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__ = __webpack_require__(941);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_login_service__ = __webpack_require__(922);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_register_service__ = __webpack_require__(923);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__ = __webpack_require__(926);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__ = __webpack_require__(928);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__ = __webpack_require__(929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__ = __webpack_require__(930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__ = __webpack_require__(931);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_maps_service__ = __webpack_require__(933);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__ = __webpack_require__(934);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__ = __webpack_require__(935);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_range_service__ = __webpack_require__(936);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__ = __webpack_require__(937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__services_select_service__ = __webpack_require__(938);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__ = __webpack_require__(939);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -845,7 +845,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ItemsPage = (function () {
+var ItemsPage = /** @class */ (function () {
     // services: array
     function ItemsPage(navCtrl, textViewService, spinnerService, imageGalleryService, searchBarService, checkBoxService, parallaxService, wizardService, tabsService, listViewService, listViewExpandableService, listViewDragAndDropService, listViewSwipeToDismissService, listViewAppearanceAnimationService, listViewGoogleCardsService, listViewStickyListHeaderService, loginService, registerService, splashScreenService, httpService, validationService, mailChimpService, mapsService, qRCodeService, radioButtonService, rangeService, toggleService, selectService, actionSheetService, alertCtrl, ga, navParams) {
         this.navCtrl = navCtrl;
@@ -1141,20 +1141,20 @@ var ItemsPage = (function () {
 
 /***/ }),
 
-/***/ 915:
+/***/ 913:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(367);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /**
  * Created by DRAGAN on 3/22/2017.
  */
 
 
-var HttpService = (function () {
+var HttpService = /** @class */ (function () {
     function HttpService(http) {
         this.http = http;
     }
@@ -1177,7 +1177,7 @@ var HttpService = (function () {
 
 /***/ }),
 
-/***/ 916:
+/***/ 914:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1185,7 +1185,7 @@ var HttpService = (function () {
 /**
  * Created by DRAGAN on 3/22/2017.
  */
-var ValidationService = (function () {
+var ValidationService = /** @class */ (function () {
     function ValidationService() {
     }
     ValidationService.prototype.isMail = function (email) {
@@ -1199,12 +1199,12 @@ var ValidationService = (function () {
 
 /***/ }),
 
-/***/ 917:
+/***/ 915:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MailChimpService; });
-var MailChimpService = (function () {
+var MailChimpService = /** @class */ (function () {
     function MailChimpService() {
     }
     MailChimpService.prototype.showMailChimpForm = function () {
@@ -1230,18 +1230,18 @@ var MailChimpService = (function () {
 
 /***/ }),
 
-/***/ 918:
+/***/ 916:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1257,7 +1257,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var CheckBoxService = (function () {
+var CheckBoxService = /** @class */ (function () {
     function CheckBoxService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -1570,12 +1570,12 @@ var CheckBoxService = (function () {
 
 /***/ }),
 
-/***/ 919:
+/***/ 917:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextViewService; });
-var TextViewService = (function () {
+var TextViewService = /** @class */ (function () {
     function TextViewService() {
         var _this = this;
         this.getId = function () { return 'textViews'; };
@@ -1615,7 +1615,7 @@ var TextViewService = (function () {
 
 /***/ }),
 
-/***/ 920:
+/***/ 918:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1623,7 +1623,7 @@ var TextViewService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1636,7 +1636,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var SpinnerService = (function () {
+var SpinnerService = /** @class */ (function () {
     function SpinnerService(loadingService) {
         var _this = this;
         this.loadingService = loadingService;
@@ -1699,7 +1699,7 @@ var SpinnerService = (function () {
 
 /***/ }),
 
-/***/ 921:
+/***/ 919:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1707,7 +1707,7 @@ var SpinnerService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1720,7 +1720,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var SplashScreenService = (function () {
+var SplashScreenService = /** @class */ (function () {
     function SplashScreenService(loadingService) {
         var _this = this;
         this.loadingService = loadingService;
@@ -1803,18 +1803,18 @@ var SplashScreenService = (function () {
 
 /***/ }),
 
-/***/ 922:
+/***/ 920:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchBarService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1830,7 +1830,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var SearchBarService = (function () {
+var SearchBarService = /** @class */ (function () {
     function SearchBarService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -2092,18 +2092,18 @@ var SearchBarService = (function () {
 
 /***/ }),
 
-/***/ 923:
+/***/ 921:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2119,7 +2119,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var WizardService = (function () {
+var WizardService = /** @class */ (function () {
     function WizardService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -2273,18 +2273,18 @@ var WizardService = (function () {
 
 /***/ }),
 
-/***/ 924:
+/***/ 922:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2300,7 +2300,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var LoginService = (function () {
+var LoginService = /** @class */ (function () {
     function LoginService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -2430,18 +2430,18 @@ var LoginService = (function () {
 
 /***/ }),
 
-/***/ 925:
+/***/ 923:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2457,7 +2457,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var RegisterService = (function () {
+var RegisterService = /** @class */ (function () {
     function RegisterService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -2576,12 +2576,12 @@ var RegisterService = (function () {
 
 /***/ }),
 
-/***/ 926:
+/***/ 924:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewService; });
-var ListViewService = (function () {
+var ListViewService = /** @class */ (function () {
     function ListViewService() {
         var _this = this;
         this.getId = function () { return 'listViews'; };
@@ -2621,18 +2621,18 @@ var ListViewService = (function () {
 
 /***/ }),
 
-/***/ 927:
+/***/ 925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewExpandableService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2648,7 +2648,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewExpandableService = (function () {
+var ListViewExpandableService = /** @class */ (function () {
     function ListViewExpandableService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -3511,18 +3511,18 @@ var ListViewExpandableService = (function () {
 
 /***/ }),
 
-/***/ 928:
+/***/ 926:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewDragAndDropService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3538,7 +3538,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewDragAndDropService = (function () {
+var ListViewDragAndDropService = /** @class */ (function () {
     function ListViewDragAndDropService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -3851,18 +3851,18 @@ var ListViewDragAndDropService = (function () {
 
 /***/ }),
 
-/***/ 929:
+/***/ 927:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewSwipeToDismissService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3878,7 +3878,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewSwipeToDismissService = (function () {
+var ListViewSwipeToDismissService = /** @class */ (function () {
     function ListViewSwipeToDismissService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -4173,18 +4173,18 @@ var ListViewSwipeToDismissService = (function () {
 
 /***/ }),
 
-/***/ 930:
+/***/ 928:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewAppearanceAnimationService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4200,7 +4200,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewAppearanceAnimationService = (function () {
+var ListViewAppearanceAnimationService = /** @class */ (function () {
     function ListViewAppearanceAnimationService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -4385,18 +4385,18 @@ var ListViewAppearanceAnimationService = (function () {
 
 /***/ }),
 
-/***/ 931:
+/***/ 929:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewGoogleCardsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4412,7 +4412,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewGoogleCardsService = (function () {
+var ListViewGoogleCardsService = /** @class */ (function () {
     function ListViewGoogleCardsService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -4660,18 +4660,18 @@ var ListViewGoogleCardsService = (function () {
 
 /***/ }),
 
-/***/ 932:
+/***/ 930:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewStickyListHeaderService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4687,7 +4687,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ListViewStickyListHeaderService = (function () {
+var ListViewStickyListHeaderService = /** @class */ (function () {
     function ListViewStickyListHeaderService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -5172,18 +5172,18 @@ var ListViewStickyListHeaderService = (function () {
 
 /***/ }),
 
-/***/ 933:
+/***/ 931:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParallaxService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5199,7 +5199,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ParallaxService = (function () {
+var ParallaxService = /** @class */ (function () {
     function ParallaxService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -5527,17 +5527,17 @@ var ParallaxService = (function () {
 
 /***/ }),
 
-/***/ 934:
+/***/ 932:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ImageGalleryService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5552,7 +5552,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ImageGalleryService = (function () {
+var ImageGalleryService = /** @class */ (function () {
     function ImageGalleryService(af, loadingService) {
         var _this = this;
         this.af = af;
@@ -6606,18 +6606,18 @@ var ImageGalleryService = (function () {
 
 /***/ }),
 
-/***/ 935:
+/***/ 933:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6633,7 +6633,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var MapsService = (function () {
+var MapsService = /** @class */ (function () {
     function MapsService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -6798,7 +6798,7 @@ var MapsService = (function () {
 
 /***/ }),
 
-/***/ 936:
+/***/ 934:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6807,7 +6807,7 @@ var MapsService = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6821,7 +6821,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var QRCodeService = (function () {
+var QRCodeService = /** @class */ (function () {
     function QRCodeService(loadingService, toastCtrl) {
         var _this = this;
         this.loadingService = loadingService;
@@ -6873,18 +6873,18 @@ var QRCodeService = (function () {
 
 /***/ }),
 
-/***/ 937:
+/***/ 935:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButtonService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6900,7 +6900,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var RadioButtonService = (function () {
+var RadioButtonService = /** @class */ (function () {
     function RadioButtonService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -7040,18 +7040,18 @@ var RadioButtonService = (function () {
 
 /***/ }),
 
-/***/ 938:
+/***/ 936:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RangeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7067,7 +7067,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var RangeService = (function () {
+var RangeService = /** @class */ (function () {
     function RangeService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -7178,18 +7178,18 @@ var RangeService = (function () {
 
 /***/ }),
 
-/***/ 939:
+/***/ 937:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToggleService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7205,7 +7205,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ToggleService = (function () {
+var ToggleService = /** @class */ (function () {
     function ToggleService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -7516,18 +7516,18 @@ var ToggleService = (function () {
 
 /***/ }),
 
-/***/ 940:
+/***/ 938:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7543,7 +7543,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var SelectService = (function () {
+var SelectService = /** @class */ (function () {
     function SelectService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;
@@ -7902,18 +7902,18 @@ var SelectService = (function () {
 
 /***/ }),
 
-/***/ 941:
+/***/ 939:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(185);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -7929,7 +7929,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var ActionSheetService = (function () {
+var ActionSheetService = /** @class */ (function () {
     function ActionSheetService(af, loadingService, toastCtrl) {
         var _this = this;
         this.af = af;

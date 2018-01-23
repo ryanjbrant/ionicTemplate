@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SplashScreenLayout1Module = (function () {
+var SplashScreenLayout1Module = /** @class */ (function () {
     function SplashScreenLayout1Module() {
     }
     SplashScreenLayout1Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var SplashScreenLayout1 = (function () {
+var SplashScreenLayout1 = /** @class */ (function () {
     function SplashScreenLayout1() {
     }
     SplashScreenLayout1.prototype.ngOnChanges = function (changes) {

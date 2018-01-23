@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout1Module = (function () {
+var WizardLayout1Module = /** @class */ (function () {
     function WizardLayout1Module() {
     }
     WizardLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout1 = (function () {
+var WizardLayout1 = /** @class */ (function () {
     function WizardLayout1() {
         this.sliderOptions = { pager: true };
         this.path = false;

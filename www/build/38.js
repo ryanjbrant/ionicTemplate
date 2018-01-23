@@ -20,7 +20,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ActionSheetLayout1Module = (function () {
+var ActionSheetLayout1Module = /** @class */ (function () {
     function ActionSheetLayout1Module() {
     }
     ActionSheetLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var ElasticHeaderModule = (function () {
+var ElasticHeaderModule = /** @class */ (function () {
     function ElasticHeaderModule() {
     }
     ElasticHeaderModule = __decorate([
@@ -97,7 +97,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ElasticHeader = (function () {
+var ElasticHeader = /** @class */ (function () {
     function ElasticHeader(element, renderer) {
         this.element = element;
         this.renderer = renderer;
@@ -165,7 +165,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ActionSheetLayout1 = (function () {
+var ActionSheetLayout1 = /** @class */ (function () {
     function ActionSheetLayout1(actionSheetCtrl) {
         this.actionSheetCtrl = actionSheetCtrl;
         this.headerImage = "";

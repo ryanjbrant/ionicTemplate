@@ -1,6 +1,6 @@
 webpackJsonp([27,89,90],{
 
-/***/ 578:
+/***/ 576:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout2Module", function() { return LoginLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_2__ = __webpack_require__(828);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_2__ = __webpack_require__(826);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LoginLayout2Module = (function () {
+var LoginLayout2Module = /** @class */ (function () {
     function LoginLayout2Module() {
     }
     LoginLayout2Module = __decorate([
@@ -42,7 +42,7 @@ var LoginLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 588:
+/***/ 578:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout1Module", function() { return LoginLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_1__ = __webpack_require__(838);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_1__ = __webpack_require__(828);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LoginLayout1Module = (function () {
+var LoginLayout1Module = /** @class */ (function () {
     function LoginLayout1Module() {
     }
     LoginLayout1Module = __decorate([
@@ -84,7 +84,7 @@ var LoginLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 634:
+/***/ 627:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -92,9 +92,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageLoginModule", function() { return ItemDetailsPageLoginModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_login__ = __webpack_require__(886);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_login_layout_1_login_layout_1_module__ = __webpack_require__(588);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_login_layout_2_login_layout_2_module__ = __webpack_require__(578);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_login__ = __webpack_require__(879);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_login_layout_1_login_layout_1_module__ = __webpack_require__(578);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_login_layout_2_login_layout_2_module__ = __webpack_require__(576);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,7 +106,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageLoginModule = (function () {
+var ItemDetailsPageLoginModule = /** @class */ (function () {
     function ItemDetailsPageLoginModule() {
     }
     ItemDetailsPageLoginModule = __decorate([
@@ -128,7 +128,7 @@ var ItemDetailsPageLoginModule = (function () {
 
 /***/ }),
 
-/***/ 828:
+/***/ 826:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -144,7 +144,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var LoginLayout2 = (function () {
+var LoginLayout2 = /** @class */ (function () {
     function LoginLayout2() {
         var _this = this;
         this.onEvent = function (event) {
@@ -177,7 +177,7 @@ var LoginLayout2 = (function () {
 
 /***/ }),
 
-/***/ 838:
+/***/ 828:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -193,7 +193,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var LoginLayout1 = (function () {
+var LoginLayout1 = /** @class */ (function () {
     function LoginLayout1() {
         var _this = this;
         this.onEvent = function (event) {
@@ -226,7 +226,7 @@ var LoginLayout1 = (function () {
 
 /***/ }),
 
-/***/ 886:
+/***/ 879:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -244,7 +244,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageLogin = (function () {
+var ItemDetailsPageLogin = /** @class */ (function () {
     function ItemDetailsPageLogin(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

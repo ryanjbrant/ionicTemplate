@@ -20,7 +20,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ParallaxLayout4Module = (function () {
+var ParallaxLayout4Module = /** @class */ (function () {
     function ParallaxLayout4Module() {
     }
     ParallaxLayout4Module = __decorate([
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var ElasticHeaderModule = (function () {
+var ElasticHeaderModule = /** @class */ (function () {
     function ElasticHeaderModule() {
     }
     ElasticHeaderModule = __decorate([
@@ -97,7 +97,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ElasticHeader = (function () {
+var ElasticHeader = /** @class */ (function () {
     function ElasticHeader(element, renderer) {
         this.element = element;
         this.renderer = renderer;
@@ -165,7 +165,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ParallaxLayout4 = (function () {
+var ParallaxLayout4 = /** @class */ (function () {
     function ParallaxLayout4() {
         this.headerImage = "";
     }

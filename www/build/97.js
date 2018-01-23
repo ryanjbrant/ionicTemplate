@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ExpandableLayout3Module = (function () {
+var ExpandableLayout3Module = /** @class */ (function () {
     function ExpandableLayout3Module() {
     }
     ExpandableLayout3Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ExpandableLayout3 = (function () {
+var ExpandableLayout3 = /** @class */ (function () {
     function ExpandableLayout3() {
     }
     ExpandableLayout3.prototype.onEvent = function (event, item, e) {

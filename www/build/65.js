@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SubImageGalleryModule = (function () {
+var SubImageGalleryModule = /** @class */ (function () {
     function SubImageGalleryModule() {
     }
     SubImageGalleryModule = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var SubImageGallery = (function () {
+var SubImageGallery = /** @class */ (function () {
     function SubImageGallery(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;

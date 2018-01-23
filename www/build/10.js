@@ -1,6 +1,6 @@
 webpackJsonp([10,103,104,105,106,107],{
 
-/***/ 558:
+/***/ 557:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout1Module", function() { return AppearanceAnimationLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_1__ = __webpack_require__(808);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_1__ = __webpack_require__(807);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AppearanceAnimationLayout1Module = (function () {
+var AppearanceAnimationLayout1Module = /** @class */ (function () {
     function AppearanceAnimationLayout1Module() {
     }
     AppearanceAnimationLayout1Module = __decorate([
@@ -42,6 +42,48 @@ var AppearanceAnimationLayout1Module = (function () {
 
 /***/ }),
 
+/***/ 558:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout3Module", function() { return AppearanceAnimationLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__ = __webpack_require__(808);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var AppearanceAnimationLayout3Module = /** @class */ (function () {
+    function AppearanceAnimationLayout3Module() {
+    }
+    AppearanceAnimationLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], AppearanceAnimationLayout3Module);
+    return AppearanceAnimationLayout3Module;
+}());
+
+//# sourceMappingURL=appearance-animation-layout-3.module.js.map
+
+/***/ }),
+
 /***/ 559:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -60,7 +102,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AppearanceAnimationLayout2Module = (function () {
+var AppearanceAnimationLayout2Module = /** @class */ (function () {
     function AppearanceAnimationLayout2Module() {
     }
     AppearanceAnimationLayout2Module = __decorate([
@@ -89,94 +131,10 @@ var AppearanceAnimationLayout2Module = (function () {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout3Module", function() { return AppearanceAnimationLayout3Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__ = __webpack_require__(810);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var AppearanceAnimationLayout3Module = (function () {
-    function AppearanceAnimationLayout3Module() {
-    }
-    AppearanceAnimationLayout3Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */]),
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__["a" /* AppearanceAnimationLayout3 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], AppearanceAnimationLayout3Module);
-    return AppearanceAnimationLayout3Module;
-}());
-
-//# sourceMappingURL=appearance-animation-layout-3.module.js.map
-
-/***/ }),
-
-/***/ 561:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout4Module", function() { return AppearanceAnimationLayout4Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__ = __webpack_require__(811);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var AppearanceAnimationLayout4Module = (function () {
-    function AppearanceAnimationLayout4Module() {
-    }
-    AppearanceAnimationLayout4Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */]),
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], AppearanceAnimationLayout4Module);
-    return AppearanceAnimationLayout4Module;
-}());
-
-//# sourceMappingURL=appearance-animation-layout-4.module.js.map
-
-/***/ }),
-
-/***/ 562:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout5Module", function() { return AppearanceAnimationLayout5Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(812);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(810);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -186,7 +144,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AppearanceAnimationLayout5Module = (function () {
+var AppearanceAnimationLayout5Module = /** @class */ (function () {
     function AppearanceAnimationLayout5Module() {
     }
     AppearanceAnimationLayout5Module = __decorate([
@@ -210,7 +168,49 @@ var AppearanceAnimationLayout5Module = (function () {
 
 /***/ }),
 
-/***/ 622:
+/***/ 561:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout4Module", function() { return AppearanceAnimationLayout4Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__ = __webpack_require__(811);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var AppearanceAnimationLayout4Module = /** @class */ (function () {
+    function AppearanceAnimationLayout4Module() {
+    }
+    AppearanceAnimationLayout4Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__["a" /* AppearanceAnimationLayout4 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], AppearanceAnimationLayout4Module);
+    return AppearanceAnimationLayout4Module;
+}());
+
+//# sourceMappingURL=appearance-animation-layout-4.module.js.map
+
+/***/ }),
+
+/***/ 623:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -218,12 +218,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageAppearanceAnimationModule", function() { return ItemDetailsPageAppearanceAnimationModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_appearance_animation__ = __webpack_require__(874);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_appearance_animation_layout_1_appearance_animation_layout_1_module__ = __webpack_require__(558);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_appearance_animation__ = __webpack_require__(875);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_appearance_animation_layout_1_appearance_animation_layout_1_module__ = __webpack_require__(557);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_appearance_animation_layout_2_appearance_animation_layout_2_module__ = __webpack_require__(559);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_appearance_animation_layout_3_appearance_animation_layout_3_module__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_appearance_animation_layout_3_appearance_animation_layout_3_module__ = __webpack_require__(558);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_list_view_appearance_animation_layout_4_appearance_animation_layout_4_module__ = __webpack_require__(561);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_list_view_appearance_animation_layout_5_appearance_animation_layout_5_module__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_list_view_appearance_animation_layout_5_appearance_animation_layout_5_module__ = __webpack_require__(560);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -238,7 +238,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageAppearanceAnimationModule = (function () {
+var ItemDetailsPageAppearanceAnimationModule = /** @class */ (function () {
     function ItemDetailsPageAppearanceAnimationModule() {
     }
     ItemDetailsPageAppearanceAnimationModule = __decorate([
@@ -261,7 +261,7 @@ var ItemDetailsPageAppearanceAnimationModule = (function () {
 
 /***/ }),
 
-/***/ 808:
+/***/ 807:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -279,7 +279,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var AppearanceAnimationLayout1 = (function () {
+var AppearanceAnimationLayout1 = /** @class */ (function () {
     function AppearanceAnimationLayout1() {
         this.animateItems = [];
         this.animateClass = { 'fade-in-left-item': true };
@@ -329,6 +329,77 @@ var AppearanceAnimationLayout1 = (function () {
 
 /***/ }),
 
+/***/ 808:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppearanceAnimationLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var AppearanceAnimationLayout3 = /** @class */ (function () {
+    function AppearanceAnimationLayout3() {
+        this.animateItems = [];
+        this.animateClass = { 'fade-in-down-item': true };
+    }
+    AppearanceAnimationLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    AppearanceAnimationLayout3.prototype.ngOnChanges = function (changes) {
+        var that = this;
+        that.data = changes['data'].currentValue;
+        if (that.data && that.data.items) {
+            that.animateItems = [];
+            var _loop_1 = function (i) {
+                setTimeout(function () {
+                    that.animateItems.push(that.data.items[i]);
+                }, 200 * i);
+            };
+            for (var i = 0; i < that.data.items.length; i++) {
+                _loop_1(i);
+            }
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AppearanceAnimationLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AppearanceAnimationLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], AppearanceAnimationLayout3.prototype, "content", void 0);
+    AppearanceAnimationLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'appearance-animation-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Down)-->\n\n<ion-content has-header>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item border no-lines [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-left>\n\n                            <img [src]="item.image" alt="{{item.title}}" />\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <ion-icon icon-small item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n                            <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n                        </ion-icon>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], AppearanceAnimationLayout3);
+    return AppearanceAnimationLayout3;
+}());
+
+//# sourceMappingURL=appearance-animation-layout-3.js.map
+
+/***/ }),
+
 /***/ 809:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -347,7 +418,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var AppearanceAnimationLayout2 = (function () {
+var AppearanceAnimationLayout2 = /** @class */ (function () {
     function AppearanceAnimationLayout2() {
         this.animateItems = [];
         this.animateClass = { 'fade-in-right-item': true };
@@ -404,148 +475,6 @@ var AppearanceAnimationLayout2 = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppearanceAnimationLayout3; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var AppearanceAnimationLayout3 = (function () {
-    function AppearanceAnimationLayout3() {
-        this.animateItems = [];
-        this.animateClass = { 'fade-in-down-item': true };
-    }
-    AppearanceAnimationLayout3.prototype.onEvent = function (event, item, e) {
-        if (e) {
-            e.stopPropagation();
-        }
-        if (this.events[event]) {
-            this.events[event](item);
-        }
-    };
-    AppearanceAnimationLayout3.prototype.ngOnChanges = function (changes) {
-        var that = this;
-        that.data = changes['data'].currentValue;
-        if (that.data && that.data.items) {
-            that.animateItems = [];
-            var _loop_1 = function (i) {
-                setTimeout(function () {
-                    that.animateItems.push(that.data.items[i]);
-                }, 200 * i);
-            };
-            for (var i = 0; i < that.data.items.length; i++) {
-                _loop_1(i);
-            }
-        }
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AppearanceAnimationLayout3.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AppearanceAnimationLayout3.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], AppearanceAnimationLayout3.prototype, "content", void 0);
-    AppearanceAnimationLayout3 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Down)-->\n\n<ion-content has-header>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item border no-lines [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-left>\n\n                            <img [src]="item.image" alt="{{item.title}}" />\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <ion-icon icon-small item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n                            <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n                        </ion-icon>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], AppearanceAnimationLayout3);
-    return AppearanceAnimationLayout3;
-}());
-
-//# sourceMappingURL=appearance-animation-layout-3.js.map
-
-/***/ }),
-
-/***/ 811:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppearanceAnimationLayout4; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var AppearanceAnimationLayout4 = (function () {
-    function AppearanceAnimationLayout4() {
-        this.animateItems = [];
-        this.animateClass = { 'fade-in-item': true };
-    }
-    AppearanceAnimationLayout4.prototype.onEvent = function (event, item, e) {
-        if (e) {
-            e.stopPropagation();
-        }
-        if (this.events[event]) {
-            this.events[event](item);
-        }
-    };
-    AppearanceAnimationLayout4.prototype.ngOnChanges = function (changes) {
-        var that = this;
-        that.data = changes['data'].currentValue;
-        if (that.data && that.data.items) {
-            that.animateItems = [];
-            var _loop_1 = function (i) {
-                setTimeout(function () {
-                    that.animateItems.push(that.data.items[i]);
-                }, 200 * i);
-            };
-            for (var i = 0; i < that.data.items.length; i++) {
-                _loop_1(i);
-            }
-        }
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AppearanceAnimationLayout4.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], AppearanceAnimationLayout4.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], AppearanceAnimationLayout4.prototype, "content", void 0);
-    AppearanceAnimationLayout4 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-4',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In)-->\n\n<ion-content has-header>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item border no-lines [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-left>\n\n                            <img [src]="item.image" alt="{{item.title}}" />\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <ion-icon icon-small item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n                            <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n                        </ion-icon>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], AppearanceAnimationLayout4);
-    return AppearanceAnimationLayout4;
-}());
-
-//# sourceMappingURL=appearance-animation-layout-4.js.map
-
-/***/ }),
-
-/***/ 812:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppearanceAnimationLayout5; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
@@ -560,7 +489,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var AppearanceAnimationLayout5 = (function () {
+var AppearanceAnimationLayout5 = /** @class */ (function () {
     function AppearanceAnimationLayout5() {
         this.animateItems = [];
         this.animateClass = { 'zoom-in': true };
@@ -614,7 +543,78 @@ var AppearanceAnimationLayout5 = (function () {
 
 /***/ }),
 
-/***/ 874:
+/***/ 811:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppearanceAnimationLayout4; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var AppearanceAnimationLayout4 = /** @class */ (function () {
+    function AppearanceAnimationLayout4() {
+        this.animateItems = [];
+        this.animateClass = { 'fade-in-item': true };
+    }
+    AppearanceAnimationLayout4.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    AppearanceAnimationLayout4.prototype.ngOnChanges = function (changes) {
+        var that = this;
+        that.data = changes['data'].currentValue;
+        if (that.data && that.data.items) {
+            that.animateItems = [];
+            var _loop_1 = function (i) {
+                setTimeout(function () {
+                    that.animateItems.push(that.data.items[i]);
+                }, 200 * i);
+            };
+            for (var i = 0; i < that.data.items.length; i++) {
+                _loop_1(i);
+            }
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AppearanceAnimationLayout4.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], AppearanceAnimationLayout4.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], AppearanceAnimationLayout4.prototype, "content", void 0);
+    AppearanceAnimationLayout4 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'appearance-animation-layout-4',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In)-->\n\n<ion-content has-header>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item border no-lines [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-left>\n\n                            <img [src]="item.image" alt="{{item.title}}" />\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <ion-icon icon-small item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n                            <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n                        </ion-icon>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], AppearanceAnimationLayout4);
+    return AppearanceAnimationLayout4;
+}());
+
+//# sourceMappingURL=appearance-animation-layout-4.js.map
+
+/***/ }),
+
+/***/ 875:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -632,7 +632,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageAppearanceAnimation = (function () {
+var ItemDetailsPageAppearanceAnimation = /** @class */ (function () {
     function ItemDetailsPageAppearanceAnimation(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

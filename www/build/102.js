@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DragAndDropLayout1Module = (function () {
+var DragAndDropLayout1Module = /** @class */ (function () {
     function DragAndDropLayout1Module() {
     }
     DragAndDropLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var DragAndDropLayout1 = (function () {
+var DragAndDropLayout1 = /** @class */ (function () {
     function DragAndDropLayout1() {
         var _this = this;
         this.reorderItems = function (indexes) {

@@ -1,6 +1,6 @@
 webpackJsonp([109],{
 
-/***/ 556:
+/***/ 555:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageGalleryLayout1Module", function() { return ImageGalleryLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__ = __webpack_require__(806);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__ = __webpack_require__(805);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ImageGalleryLayout1Module = (function () {
+var ImageGalleryLayout1Module = /** @class */ (function () {
     function ImageGalleryLayout1Module() {
     }
     ImageGalleryLayout1Module = __decorate([
@@ -42,7 +42,7 @@ var ImageGalleryLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 806:
+/***/ 805:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ImageGalleryLayout1 = (function () {
+var ImageGalleryLayout1 = /** @class */ (function () {
     function ImageGalleryLayout1(navCtrl, navParams) {
         var _this = this;
         this.navCtrl = navCtrl;

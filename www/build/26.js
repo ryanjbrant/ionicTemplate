@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RegisterLayout1Module = (function () {
+var RegisterLayout1Module = /** @class */ (function () {
     function RegisterLayout1Module() {
     }
     RegisterLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RegisterLayout2Module = (function () {
+var RegisterLayout2Module = /** @class */ (function () {
     function RegisterLayout2Module() {
     }
     RegisterLayout2Module = __decorate([
@@ -84,7 +84,7 @@ var RegisterLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 633:
+/***/ 636:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageRegisterModule", function() { return ItemDetailsPageRegisterModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_register__ = __webpack_require__(885);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_register__ = __webpack_require__(888);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_register_layout_1_register_layout_1_module__ = __webpack_require__(595);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_register_layout_2_register_layout_2_module__ = __webpack_require__(596);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -106,7 +106,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageRegisterModule = (function () {
+var ItemDetailsPageRegisterModule = /** @class */ (function () {
     function ItemDetailsPageRegisterModule() {
     }
     ItemDetailsPageRegisterModule = __decorate([
@@ -144,7 +144,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RegisterLayout1 = (function () {
+var RegisterLayout1 = /** @class */ (function () {
     function RegisterLayout1() {
         var _this = this;
         this.onEvent = function (event) {
@@ -196,7 +196,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RegisterLayout2 = (function () {
+var RegisterLayout2 = /** @class */ (function () {
     function RegisterLayout2() {
         var _this = this;
         this.onEvent = function (event) {
@@ -232,7 +232,7 @@ var RegisterLayout2 = (function () {
 
 /***/ }),
 
-/***/ 885:
+/***/ 888:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -250,7 +250,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageRegister = (function () {
+var ItemDetailsPageRegister = /** @class */ (function () {
     function ItemDetailsPageRegister(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

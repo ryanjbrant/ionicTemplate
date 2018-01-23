@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ToggleLayout1Module = (function () {
+var ToggleLayout1Module = /** @class */ (function () {
     function ToggleLayout1Module() {
     }
     ToggleLayout1Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ToggleLayout1 = (function () {
+var ToggleLayout1 = /** @class */ (function () {
     function ToggleLayout1() {
         var _this = this;
         this.onEvent = function (event, item) {

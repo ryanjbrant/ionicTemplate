@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RadioButtonLayout3Module = (function () {
+var RadioButtonLayout3Module = /** @class */ (function () {
     function RadioButtonLayout3Module() {
     }
     RadioButtonLayout3Module = __decorate([
@@ -58,7 +58,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RadioButtonLayout3 = (function () {
+var RadioButtonLayout3 = /** @class */ (function () {
     function RadioButtonLayout3() {
         var _this = this;
         this.onEvent = function (event, item) {

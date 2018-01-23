@@ -1,6 +1,6 @@
 webpackJsonp([11,33,34,35,36],{
 
-/***/ 583:
+/***/ 582:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout1Module", function() { return ParallaxLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_1__ = __webpack_require__(833);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_1__ = __webpack_require__(832);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -20,7 +20,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ParallaxLayout1Module = (function () {
+var ParallaxLayout1Module = /** @class */ (function () {
     function ParallaxLayout1Module() {
     }
     ParallaxLayout1Module = __decorate([
@@ -45,7 +45,7 @@ var ParallaxLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 584:
+/***/ 583:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53,7 +53,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout2Module", function() { return ParallaxLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_2__ = __webpack_require__(834);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_2__ = __webpack_require__(833);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -65,7 +65,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ParallaxLayout2Module = (function () {
+var ParallaxLayout2Module = /** @class */ (function () {
     function ParallaxLayout2Module() {
     }
     ParallaxLayout2Module = __decorate([
@@ -90,52 +90,7 @@ var ParallaxLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 585:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout4Module", function() { return ParallaxLayout4Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__ = __webpack_require__(835);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-var ParallaxLayout4Module = (function () {
-    function ParallaxLayout4Module() {
-    }
-    ParallaxLayout4Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */]),
-                __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__["a" /* ElasticHeaderModule */]
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], ParallaxLayout4Module);
-    return ParallaxLayout4Module;
-}());
-
-//# sourceMappingURL=parallax-layout-4.module.js.map
-
-/***/ }),
-
-/***/ 586:
+/***/ 584:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143,7 +98,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout3Module", function() { return ParallaxLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_3__ = __webpack_require__(836);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_3__ = __webpack_require__(834);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -155,7 +110,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ParallaxLayout3Module = (function () {
+var ParallaxLayout3Module = /** @class */ (function () {
     function ParallaxLayout3Module() {
     }
     ParallaxLayout3Module = __decorate([
@@ -180,7 +135,52 @@ var ParallaxLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 639:
+/***/ 585:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout4Module", function() { return ParallaxLayout4Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__ = __webpack_require__(835);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(665);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ParallaxLayout4Module = /** @class */ (function () {
+    function ParallaxLayout4Module() {
+    }
+    ParallaxLayout4Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */]),
+                __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__["a" /* ElasticHeaderModule */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__parallax_layout_4__["a" /* ParallaxLayout4 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ParallaxLayout4Module);
+    return ParallaxLayout4Module;
+}());
+
+//# sourceMappingURL=parallax-layout-4.module.js.map
+
+/***/ }),
+
+/***/ 630:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,10 +188,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageParallaxModule", function() { return ItemDetailsPageParallaxModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_parallax__ = __webpack_require__(891);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_parallax_layout_1_parallax_layout_1_module__ = __webpack_require__(583);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_parallax_layout_2_parallax_layout_2_module__ = __webpack_require__(584);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_parallax_layout_3_parallax_layout_3_module__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_parallax__ = __webpack_require__(882);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_parallax_layout_1_parallax_layout_1_module__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_parallax_layout_2_parallax_layout_2_module__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_parallax_layout_3_parallax_layout_3_module__ = __webpack_require__(584);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_parallax_layout_4_parallax_layout_4_module__ = __webpack_require__(585);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -206,7 +206,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageParallaxModule = (function () {
+var ItemDetailsPageParallaxModule = /** @class */ (function () {
     function ItemDetailsPageParallaxModule() {
     }
     ItemDetailsPageParallaxModule = __decorate([
@@ -243,7 +243,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-var ElasticHeaderModule = (function () {
+var ElasticHeaderModule = /** @class */ (function () {
     function ElasticHeaderModule() {
     }
     ElasticHeaderModule = __decorate([
@@ -280,7 +280,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ElasticHeader = (function () {
+var ElasticHeader = /** @class */ (function () {
     function ElasticHeader(element, renderer) {
         this.element = element;
         this.renderer = renderer;
@@ -330,7 +330,7 @@ var ElasticHeader = (function () {
 
 /***/ }),
 
-/***/ 833:
+/***/ 832:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -348,7 +348,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ParallaxLayout1 = (function () {
+var ParallaxLayout1 = /** @class */ (function () {
     function ParallaxLayout1() {
         this.headerImage = "";
     }
@@ -412,7 +412,7 @@ var ParallaxLayout1 = (function () {
 
 /***/ }),
 
-/***/ 834:
+/***/ 833:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -430,7 +430,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ParallaxLayout2 = (function () {
+var ParallaxLayout2 = /** @class */ (function () {
     function ParallaxLayout2() {
         this.headerImage = "";
     }
@@ -491,6 +491,85 @@ var ParallaxLayout2 = (function () {
 
 /***/ }),
 
+/***/ 834:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParallaxLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ParallaxLayout3 = /** @class */ (function () {
+    function ParallaxLayout3() {
+        this.headerImage = "";
+    }
+    ParallaxLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    ParallaxLayout3.prototype.ngOnChanges = function (changes) {
+        if (changes.data && changes.data.currentValue) {
+            this.headerImage = changes.data.currentValue.headerImage;
+        }
+        this.subscribeToIonScroll();
+    };
+    ParallaxLayout3.prototype.ngAfterViewInit = function () {
+        this.subscribeToIonScroll();
+    };
+    ParallaxLayout3.prototype.isClassActive = function () {
+        return this.active;
+    };
+    ParallaxLayout3.prototype.subscribeToIonScroll = function () {
+        var _this = this;
+        if (this.content != null && this.content.ionScroll != null) {
+            this.content.ionScroll.subscribe(function (d) {
+                if (d.scrollTop < 200) {
+                    _this.active = false;
+                    return;
+                }
+                _this.active = true;
+            });
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ParallaxLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ParallaxLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], ParallaxLayout3.prototype, "content", void 0);
+    ParallaxLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'parallax-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/parallax/layout-3/parallax.html"*/'<!--- Theme Parallax - Product -->\n\n<ion-header header-ios>\n\n  <ion-navbar transparent [ngClass]="{\'active\':isClassActive()}">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title *ngIf="data != null" text-left>{{data.headerTitle}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content elastic-header>\n\n  <!-- Parallax Big Image -->\n\n  <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n    <button ion-fixed item-end ion-button color="primary" button-action-shit *ngIf="data != null" (click)="onEvent(\'onShare\', data)">\n\n        <ion-icon  name="{{data.shareIcon}}"></ion-icon>\n\n      </button>\n\n  </ion-item>\n\n  <!--Content-->\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item-group *ngFor="let item of data.items;let i = index" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-item-divider no-lines>\n\n              <!-- Name Category-->\n\n              <span new-category margin-top text-uppercase>{{item.category}}</span>\n\n              <!-- Parallax Title -->\n\n              <h2 parallax-title text-wrap>{{item.title}}</h2>\n\n              <!-- Parallax Subtitle -->\n\n              <h3 parallax-subtitle text-wrap>{{item.subtitle}}</h3>\n\n              <ion-badge item-end text-uppercase class="badge-dark" (click)="onEvent(\'onProceed\', item, $event)">{{item.button}}</ion-badge>\n\n            </ion-item-divider>\n\n            <!-- Description Products -->\n\n            <ion-item border no-lines no-margin>\n\n              <p parallax-description text-wrap>{{item.description}}</p>\n\n            </ion-item>\n\n            <!--Content With Text-->\n\n            <ion-item no-lines *ngFor="let productDescription of item.productDescriptions">\n\n              <p parallax-description text-wrap>{{productDescription.description}}</p>\n\n            </ion-item>\n\n          </ion-item-group>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/parallax/layout-3/parallax.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ParallaxLayout3);
+    return ParallaxLayout3;
+}());
+
+//# sourceMappingURL=parallax-layout-3.js.map
+
+/***/ }),
+
 /***/ 835:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -509,7 +588,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ParallaxLayout4 = (function () {
+var ParallaxLayout4 = /** @class */ (function () {
     function ParallaxLayout4() {
         this.headerImage = "";
     }
@@ -576,86 +655,7 @@ var ParallaxLayout4 = (function () {
 
 /***/ }),
 
-/***/ 836:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParallaxLayout3; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ParallaxLayout3 = (function () {
-    function ParallaxLayout3() {
-        this.headerImage = "";
-    }
-    ParallaxLayout3.prototype.onEvent = function (event, item, e) {
-        if (e) {
-            e.stopPropagation();
-        }
-        if (this.events[event]) {
-            this.events[event](item);
-        }
-    };
-    ParallaxLayout3.prototype.ngOnChanges = function (changes) {
-        if (changes.data && changes.data.currentValue) {
-            this.headerImage = changes.data.currentValue.headerImage;
-        }
-        this.subscribeToIonScroll();
-    };
-    ParallaxLayout3.prototype.ngAfterViewInit = function () {
-        this.subscribeToIonScroll();
-    };
-    ParallaxLayout3.prototype.isClassActive = function () {
-        return this.active;
-    };
-    ParallaxLayout3.prototype.subscribeToIonScroll = function () {
-        var _this = this;
-        if (this.content != null && this.content.ionScroll != null) {
-            this.content.ionScroll.subscribe(function (d) {
-                if (d.scrollTop < 200) {
-                    _this.active = false;
-                    return;
-                }
-                _this.active = true;
-            });
-        }
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], ParallaxLayout3.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], ParallaxLayout3.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], ParallaxLayout3.prototype, "content", void 0);
-    ParallaxLayout3 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'parallax-layout-3',template:/*ion-inline-start:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/parallax/layout-3/parallax.html"*/'<!--- Theme Parallax - Product -->\n\n<ion-header header-ios>\n\n  <ion-navbar transparent [ngClass]="{\'active\':isClassActive()}">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title *ngIf="data != null" text-left>{{data.headerTitle}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content elastic-header>\n\n  <!-- Parallax Big Image -->\n\n  <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n    <button ion-fixed item-end ion-button color="primary" button-action-shit *ngIf="data != null" (click)="onEvent(\'onShare\', data)">\n\n        <ion-icon  name="{{data.shareIcon}}"></ion-icon>\n\n      </button>\n\n  </ion-item>\n\n  <!--Content-->\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item-group *ngFor="let item of data.items;let i = index" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-item-divider no-lines>\n\n              <!-- Name Category-->\n\n              <span new-category margin-top text-uppercase>{{item.category}}</span>\n\n              <!-- Parallax Title -->\n\n              <h2 parallax-title text-wrap>{{item.title}}</h2>\n\n              <!-- Parallax Subtitle -->\n\n              <h3 parallax-subtitle text-wrap>{{item.subtitle}}</h3>\n\n              <ion-badge item-end text-uppercase class="badge-dark" (click)="onEvent(\'onProceed\', item, $event)">{{item.button}}</ion-badge>\n\n            </ion-item-divider>\n\n            <!-- Description Products -->\n\n            <ion-item border no-lines no-margin>\n\n              <p parallax-description text-wrap>{{item.description}}</p>\n\n            </ion-item>\n\n            <!--Content With Text-->\n\n            <ion-item no-lines *ngFor="let productDescription of item.productDescriptions">\n\n              <p parallax-description text-wrap>{{productDescription.description}}</p>\n\n            </ion-item>\n\n          </ion-item-group>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/Users/ryanjbrant/Repos/ionicTemplate/src/components/parallax/layout-3/parallax.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], ParallaxLayout3);
-    return ParallaxLayout3;
-}());
-
-//# sourceMappingURL=parallax-layout-3.js.map
-
-/***/ }),
-
-/***/ 891:
+/***/ 882:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -673,7 +673,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageParallax = (function () {
+var ItemDetailsPageParallax = /** @class */ (function () {
     function ItemDetailsPageParallax(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

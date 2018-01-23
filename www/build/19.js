@@ -1,6 +1,6 @@
 webpackJsonp([19,85,86,87],{
 
-/***/ 587:
+/***/ 588:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RadioButtonLayout1Module", function() { return RadioButtonLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__ = __webpack_require__(837);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__ = __webpack_require__(838);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RadioButtonLayout1Module = (function () {
+var RadioButtonLayout1Module = /** @class */ (function () {
     function RadioButtonLayout1Module() {
     }
     RadioButtonLayout1Module = __decorate([
@@ -60,7 +60,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RadioButtonLayout2Module = (function () {
+var RadioButtonLayout2Module = /** @class */ (function () {
     function RadioButtonLayout2Module() {
     }
     RadioButtonLayout2Module = __decorate([
@@ -102,7 +102,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RadioButtonLayout3Module = (function () {
+var RadioButtonLayout3Module = /** @class */ (function () {
     function RadioButtonLayout3Module() {
     }
     RadioButtonLayout3Module = __decorate([
@@ -126,7 +126,7 @@ var RadioButtonLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 632:
+/***/ 633:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,8 +134,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageRadioButtonModule", function() { return ItemDetailsPageRadioButtonModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_radio_button__ = __webpack_require__(884);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_radio_button_layout_1_radio_button_layout_1_module__ = __webpack_require__(587);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_radio_button__ = __webpack_require__(885);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_radio_button_layout_1_radio_button_layout_1_module__ = __webpack_require__(588);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_radio_button_layout_2_radio_button_layout_2_module__ = __webpack_require__(589);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_radio_button_layout_3_radio_button_layout_3_module__ = __webpack_require__(590);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -150,7 +150,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageRadioButtonModule = (function () {
+var ItemDetailsPageRadioButtonModule = /** @class */ (function () {
     function ItemDetailsPageRadioButtonModule() {
     }
     ItemDetailsPageRadioButtonModule = __decorate([
@@ -173,7 +173,7 @@ var ItemDetailsPageRadioButtonModule = (function () {
 
 /***/ }),
 
-/***/ 837:
+/***/ 838:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -189,7 +189,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RadioButtonLayout1 = (function () {
+var RadioButtonLayout1 = /** @class */ (function () {
     function RadioButtonLayout1() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -235,7 +235,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RadioButtonLayout2 = (function () {
+var RadioButtonLayout2 = /** @class */ (function () {
     function RadioButtonLayout2() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -281,7 +281,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RadioButtonLayout3 = (function () {
+var RadioButtonLayout3 = /** @class */ (function () {
     function RadioButtonLayout3() {
         var _this = this;
         this.onEvent = function (event, item) {
@@ -311,7 +311,7 @@ var RadioButtonLayout3 = (function () {
 
 /***/ }),
 
-/***/ 884:
+/***/ 885:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -329,7 +329,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ItemDetailsPageRadioButton = (function () {
+var ItemDetailsPageRadioButton = /** @class */ (function () {
     function ItemDetailsPageRadioButton(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.params = {};

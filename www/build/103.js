@@ -1,6 +1,6 @@
 webpackJsonp([103],{
 
-/***/ 562:
+/***/ 560:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout5Module", function() { return AppearanceAnimationLayout5Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(812);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(810);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AppearanceAnimationLayout5Module = (function () {
+var AppearanceAnimationLayout5Module = /** @class */ (function () {
     function AppearanceAnimationLayout5Module() {
     }
     AppearanceAnimationLayout5Module = __decorate([
@@ -42,7 +42,7 @@ var AppearanceAnimationLayout5Module = (function () {
 
 /***/ }),
 
-/***/ 812:
+/***/ 810:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var AppearanceAnimationLayout5 = (function () {
+var AppearanceAnimationLayout5 = /** @class */ (function () {
     function AppearanceAnimationLayout5() {
         this.animateItems = [];
         this.animateClass = { 'zoom-in': true };

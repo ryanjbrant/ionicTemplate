@@ -18,7 +18,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AppearanceAnimationLayout4Module = (function () {
+var AppearanceAnimationLayout4Module = /** @class */ (function () {
     function AppearanceAnimationLayout4Module() {
     }
     AppearanceAnimationLayout4Module = __decorate([
@@ -60,7 +60,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var AppearanceAnimationLayout4 = (function () {
+var AppearanceAnimationLayout4 = /** @class */ (function () {
     function AppearanceAnimationLayout4() {
         this.animateItems = [];
         this.animateClass = { 'fade-in-item': true };
