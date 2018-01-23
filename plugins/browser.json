@@ -1,0 +1,51 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-google-analytics": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-flashlight": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-spinner-dialog": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.csform.ionic.green.light"
+    }
+  },
+  "dependent_plugins": {}
+}

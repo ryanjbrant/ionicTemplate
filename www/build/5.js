@@ -1,6 +1,6 @@
 webpackJsonp([5],{
 
-/***/ 648:
+/***/ 662:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemsPageModule", function() { return ItemsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(900);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(914);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -766,43 +766,43 @@ var TabsService = (function () {
 
 /***/ }),
 
-/***/ 900:
+/***/ 914:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_HttpService__ = __webpack_require__(901);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_validation__ = __webpack_require__(902);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__ = __webpack_require__(903);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_HttpService__ = __webpack_require__(915);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_validation__ = __webpack_require__(916);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__ = __webpack_require__(917);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_google_analytics__ = __webpack_require__(368);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_app_settings__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__ = __webpack_require__(904);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__ = __webpack_require__(905);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__ = __webpack_require__(906);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__ = __webpack_require__(907);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__ = __webpack_require__(908);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__ = __webpack_require__(909);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__ = __webpack_require__(918);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__ = __webpack_require__(919);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__ = __webpack_require__(920);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__ = __webpack_require__(921);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__ = __webpack_require__(922);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__ = __webpack_require__(923);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_tabs_service__ = __webpack_require__(664);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_login_service__ = __webpack_require__(910);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_register_service__ = __webpack_require__(911);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__ = __webpack_require__(912);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__ = __webpack_require__(913);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__ = __webpack_require__(914);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__ = __webpack_require__(915);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__ = __webpack_require__(916);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__ = __webpack_require__(917);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__ = __webpack_require__(918);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__ = __webpack_require__(919);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__ = __webpack_require__(920);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_maps_service__ = __webpack_require__(921);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__ = __webpack_require__(922);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__ = __webpack_require__(923);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_range_service__ = __webpack_require__(924);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__ = __webpack_require__(925);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__services_select_service__ = __webpack_require__(926);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_login_service__ = __webpack_require__(924);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_register_service__ = __webpack_require__(925);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__ = __webpack_require__(926);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__ = __webpack_require__(928);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__ = __webpack_require__(929);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__ = __webpack_require__(930);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__ = __webpack_require__(931);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__ = __webpack_require__(933);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__ = __webpack_require__(934);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_maps_service__ = __webpack_require__(935);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__ = __webpack_require__(936);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__ = __webpack_require__(937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_range_service__ = __webpack_require__(938);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__services_select_service__ = __webpack_require__(940);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__ = __webpack_require__(941);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1141,7 +1141,7 @@ var ItemsPage = (function () {
 
 /***/ }),
 
-/***/ 901:
+/***/ 915:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1177,7 +1177,7 @@ var HttpService = (function () {
 
 /***/ }),
 
-/***/ 902:
+/***/ 916:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1199,7 +1199,7 @@ var ValidationService = (function () {
 
 /***/ }),
 
-/***/ 903:
+/***/ 917:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1230,7 +1230,7 @@ var MailChimpService = (function () {
 
 /***/ }),
 
-/***/ 904:
+/***/ 918:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1570,7 +1570,7 @@ var CheckBoxService = (function () {
 
 /***/ }),
 
-/***/ 905:
+/***/ 919:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1615,7 +1615,7 @@ var TextViewService = (function () {
 
 /***/ }),
 
-/***/ 906:
+/***/ 920:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1699,7 +1699,7 @@ var SpinnerService = (function () {
 
 /***/ }),
 
-/***/ 907:
+/***/ 921:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1803,7 +1803,7 @@ var SplashScreenService = (function () {
 
 /***/ }),
 
-/***/ 908:
+/***/ 922:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2092,7 +2092,7 @@ var SearchBarService = (function () {
 
 /***/ }),
 
-/***/ 909:
+/***/ 923:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2273,7 +2273,7 @@ var WizardService = (function () {
 
 /***/ }),
 
-/***/ 910:
+/***/ 924:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2430,7 +2430,7 @@ var LoginService = (function () {
 
 /***/ }),
 
-/***/ 911:
+/***/ 925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2576,7 +2576,7 @@ var RegisterService = (function () {
 
 /***/ }),
 
-/***/ 912:
+/***/ 926:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2621,7 +2621,7 @@ var ListViewService = (function () {
 
 /***/ }),
 
-/***/ 913:
+/***/ 927:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3511,7 +3511,7 @@ var ListViewExpandableService = (function () {
 
 /***/ }),
 
-/***/ 914:
+/***/ 928:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3851,7 +3851,7 @@ var ListViewDragAndDropService = (function () {
 
 /***/ }),
 
-/***/ 915:
+/***/ 929:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4173,7 +4173,7 @@ var ListViewSwipeToDismissService = (function () {
 
 /***/ }),
 
-/***/ 916:
+/***/ 930:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4385,7 +4385,7 @@ var ListViewAppearanceAnimationService = (function () {
 
 /***/ }),
 
-/***/ 917:
+/***/ 931:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4660,7 +4660,7 @@ var ListViewGoogleCardsService = (function () {
 
 /***/ }),
 
-/***/ 918:
+/***/ 932:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5172,7 +5172,7 @@ var ListViewStickyListHeaderService = (function () {
 
 /***/ }),
 
-/***/ 919:
+/***/ 933:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5527,7 +5527,7 @@ var ParallaxService = (function () {
 
 /***/ }),
 
-/***/ 920:
+/***/ 934:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6606,7 +6606,7 @@ var ImageGalleryService = (function () {
 
 /***/ }),
 
-/***/ 921:
+/***/ 935:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6798,7 +6798,7 @@ var MapsService = (function () {
 
 /***/ }),
 
-/***/ 922:
+/***/ 936:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6873,7 +6873,7 @@ var QRCodeService = (function () {
 
 /***/ }),
 
-/***/ 923:
+/***/ 937:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7040,7 +7040,7 @@ var RadioButtonService = (function () {
 
 /***/ }),
 
-/***/ 924:
+/***/ 938:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7178,7 +7178,7 @@ var RangeService = (function () {
 
 /***/ }),
 
-/***/ 925:
+/***/ 939:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7516,7 +7516,7 @@ var ToggleService = (function () {
 
 /***/ }),
 
-/***/ 926:
+/***/ 940:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7902,7 +7902,7 @@ var SelectService = (function () {
 
 /***/ }),
 
-/***/ 927:
+/***/ 941:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

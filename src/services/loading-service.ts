@@ -1,4 +1,4 @@
-import { LoadingController } from 'ionic-angular';
+import { Loading, LoadingController } from 'ionic-angular';
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -17,3 +17,4 @@ export class LoadingService {
     this.loading.dismiss();
   }
 }
+
